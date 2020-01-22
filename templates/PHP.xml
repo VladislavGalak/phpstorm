@@ -1,0 +1,17 @@
+<templateSet group="PHP">
+  <template name="pre" value="echo &quot;&lt;pre&gt;&quot;;&#10;    print_r();&#10;echo &quot;&lt;/pre&gt;&quot;;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ref" value="$newRef    = new ReferenceField('REF_NAME', REFTable::class,&#10;            Join::on('this.ID', 'ref.IBLOCK_ELEMENT_ID')&#10;                -&gt;where('ref.IBLOCK_PROPERTY_ID', 4)&#10;        );" shortcut="TAB" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="expr" value="$exprVal = new ExpressionField('EXPR_VAL', &quot;GROUP_CONCAT(DISTINCT %s SEPARATOR '/')&quot;, 'SOME_FIELD.VALUE');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
