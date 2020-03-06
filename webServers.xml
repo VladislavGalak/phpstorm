@@ -9,14 +9,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="e352a908-cef1-44b9-9940-2c13219ae129" name="dev1.virbacavto.ru" url="http://82.146.51.243">
-        <fileTransfer host="82.146.51.243" port="22" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </application>
