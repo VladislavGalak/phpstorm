@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="da69a6d9-56ff-4708-968d-dfc7aac3aa87" name="eksmo" url="http://92.62.112.31">
+        <fileTransfer host="92.62.112.31" port="108" rootFolder="/var/www/dev/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="108" />
+        </fileTransfer>
+      </webServer>
       <webServer id="893489c8-34de-4cf3-88fa-b7665dadc066" name="vsemitut.ru" url="https://www.vsemitut.ru">
         <fileTransfer host="46.30.41.145" port="22" rootFolder="/home/bitrix" accessType="SFTP">
           <advancedOptions>
