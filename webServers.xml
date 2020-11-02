@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="893489c8-34de-4cf3-88fa-b7665dadc066" name="vsemitut.ru" url="https://www.vsemitut.ru">
-        <fileTransfer host="46.30.41.145" port="22" rootFolder="/home/bitrix" accessType="SFTP">
+        <fileTransfer host="185.154.52.207" port="22" rootFolder="/home/bitrix/www" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
