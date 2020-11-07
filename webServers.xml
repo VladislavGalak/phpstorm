@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="d51e9a07-89b6-49d7-9e3f-290db82bc61e" name="loudsound" url="http://212.109.218.2">
+        <fileTransfer host="212.109.218.2" port="22" rootFolder="/home/bitrix/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="ce5e6b23-2eed-4962-88fb-172dc4c77903" name="offcie-class" url="http://212.109.216.222">
         <fileTransfer host="212.109.216.222" port="22" rootFolder="/home/bitrix/dev/public" accessType="SFTP">
           <advancedOptions>
