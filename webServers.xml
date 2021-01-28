@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="4839c7df-7c68-44ef-a816-81489c7ead8c" name="pk-process" url="http://87.236.16.207">
+        <fileTransfer host="87.236.16.207" port="22" rootFolder="/home/p/pkprocess/pkprocess.beget.tech/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="d51e9a07-89b6-49d7-9e3f-290db82bc61e" name="loudsound" url="http://212.109.218.2">
         <fileTransfer host="212.109.218.2" port="22" rootFolder="/home/bitrix/www" accessType="SFTP">
           <advancedOptions>
