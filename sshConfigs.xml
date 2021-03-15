@@ -16,7 +16,7 @@
       <sshConfig authType="PASSWORD" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM">
         <option name="customName" value="vsemitut.ru" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM">
+      <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="myscent" />
       </sshConfig>
     </configs>
