@@ -1,0 +1,24 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="87.236.16.207" id="7bdc760d-e474-4c6a-aa40-994e79be1e5e" port="22" customName="pk-process" nameFormat="CUSTOM">
+        <option name="customName" value="pk-process" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="212.109.218.2" id="60641dae-3881-4970-bd79-1125d94397bc" port="22" customName="loudsound" nameFormat="CUSTOM">
+        <option name="customName" value="loudsound" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="212.109.216.222" id="e0195c4d-ba99-49cb-9485-32dc60a5ff45" port="22" customName="offcie-class" nameFormat="CUSTOM">
+        <option name="customName" value="offcie-class" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="92.62.112.31" id="fda1d625-4825-41d3-971d-00072f515386" port="108" customName="eksmo" nameFormat="CUSTOM">
+        <option name="customName" value="eksmo" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM">
+        <option name="customName" value="vsemitut.ru" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM">
+        <option name="customName" value="myscent" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
