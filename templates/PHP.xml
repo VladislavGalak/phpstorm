@@ -14,4 +14,19 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="da" value="da($END$);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wtf" value="\Bitrix\Main\Diag\Debug::writeToFile('INFO'=&gt;$END$,'','app_debug.txt');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="track" value="$connection = \Bitrix\Main\Application::getConnection();&#10;/** Bitrix\Main\Diag\SqlTracker $tracker */&#10;$tracker = $connection-&gt;startTracker();&#10;$END$&#10;$connection-&gt;stopTracker();&#10;&#10;foreach ($tracker-&gt;getQueries() as $query) {&#10;    da($query-&gt;getSql());&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
