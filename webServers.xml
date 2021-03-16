@@ -2,51 +2,45 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="4839c7df-7c68-44ef-a816-81489c7ead8c" name="pk-process" url="http://87.236.16.207">
-        <fileTransfer host="87.236.16.207" port="22" rootFolder="/home/p/pkprocess/pkprocess.beget.tech/public_html" accessType="SFTP">
+        <fileTransfer rootFolder="/home/p/pkprocess/pkprocess.beget.tech/public_html" accessType="SFTP" host="87.236.16.207" port="22" sshConfigId="7bdc760d-e474-4c6a-aa40-994e79be1e5e" sshConfig="pk-process">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="d51e9a07-89b6-49d7-9e3f-290db82bc61e" name="loudsound" url="http://212.109.218.2">
-        <fileTransfer host="212.109.218.2" port="22" rootFolder="/home/bitrix/www" accessType="SFTP">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/dev.loudsound.ru" accessType="SFTP" host="212.109.218.2" port="22" sshConfigId="60641dae-3881-4970-bd79-1125d94397bc" sshConfig="loudsound">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="ce5e6b23-2eed-4962-88fb-172dc4c77903" name="offcie-class" url="http://212.109.216.222">
-        <fileTransfer host="212.109.216.222" port="22" rootFolder="/home/bitrix/dev/public" accessType="SFTP">
+        <fileTransfer rootFolder="/home/bitrix/dev/public" accessType="SFTP" host="212.109.216.222" port="22" sshConfigId="e0195c4d-ba99-49cb-9485-32dc60a5ff45" sshConfig="offcie-class">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="da69a6d9-56ff-4708-968d-dfc7aac3aa87" name="eksmo" url="http://92.62.112.31">
-        <fileTransfer host="92.62.112.31" port="108" rootFolder="/var/www/dev/" accessType="SFTP">
+        <fileTransfer rootFolder="/var/www/dev/" accessType="SFTP" host="92.62.112.31" port="108" sshConfigId="fda1d625-4825-41d3-971d-00072f515386" sshConfig="eksmo">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="108" />
         </fileTransfer>
       </webServer>
       <webServer id="893489c8-34de-4cf3-88fa-b7665dadc066" name="vsemitut.ru" url="https://www.vsemitut.ru">
-        <fileTransfer host="185.154.52.207" port="22" rootFolder="/home/bitrix/www" accessType="SFTP">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="185.154.52.207" port="22" sshConfigId="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" sshConfig="vsemitut.ru">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="67864c04-a8db-4ad4-88cd-514a3c05de01" name="myscent" url="http://159.69.57.150">
-        <fileTransfer host="159.69.57.150" port="22" rootFolder="/home/bitrix/www" accessType="SFTP">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="159.69.57.150" port="22" sshConfigId="aca84fba-0852-4790-a3ee-0558ba137661" sshConfig="myscent">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
