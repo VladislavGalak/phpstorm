@@ -9,7 +9,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d51e9a07-89b6-49d7-9e3f-290db82bc61e" name="loudsound" url="http://212.109.218.2">
-        <fileTransfer rootFolder="/home/bitrix/ext_www/dev.loudsound.ru" accessType="SFTP" host="212.109.218.2" port="22" sshConfigId="60641dae-3881-4970-bd79-1125d94397bc" sshConfig="loudsound">
+        <fileTransfer rootFolder="/home/bitrix/www/" accessType="SFTP" host="212.109.218.2" port="22" sshConfigId="60641dae-3881-4970-bd79-1125d94397bc" sshConfig="loudsound">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
