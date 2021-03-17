@@ -13,7 +13,7 @@
       <sshConfig authType="PASSWORD" host="92.62.112.31" id="fda1d625-4825-41d3-971d-00072f515386" port="108" customName="eksmo" nameFormat="CUSTOM">
         <option name="customName" value="eksmo" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM">
+      <sshConfig authType="PASSWORD" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="vsemitut.ru" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM" username="bitrix">
