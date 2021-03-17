@@ -19,6 +19,9 @@
       <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="myscent" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="159.69.57.151" id="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" port="22" customName="dev.myscent.ru" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="dev.myscent.ru" />
+      </sshConfig>
     </configs>
   </component>
 </application>
