@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="8fa59a67-e1e9-4fc2-b30c-b2490c010bc2" name="dev.myscent.ru">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="159.69.57.151" port="22" sshConfigId="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" sshConfig="dev.myscent.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="4839c7df-7c68-44ef-a816-81489c7ead8c" name="pk-process" url="http://87.236.16.207">
         <fileTransfer rootFolder="/home/p/pkprocess/pkprocess.beget.tech/public_html" accessType="SFTP" host="87.236.16.207" port="22" sshConfigId="7bdc760d-e474-4c6a-aa40-994e79be1e5e" sshConfig="pk-process">
           <advancedOptions>
