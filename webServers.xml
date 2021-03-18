@@ -50,6 +50,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="88d137f0-1745-4b01-91ce-1dbf8e228860" name="biopodushka">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="62.109.25.87" port="22" sshConfigId="dc8082d3-39f7-4224-9891-dffc98fab143" sshConfig="biopodushka">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
