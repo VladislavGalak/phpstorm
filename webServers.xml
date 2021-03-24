@@ -23,7 +23,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ce5e6b23-2eed-4962-88fb-172dc4c77903" name="offcie-class" url="http://212.109.216.222">
-        <fileTransfer rootFolder="/home/bitrix/dev/public" accessType="SFTP" host="212.109.216.222" port="22" sshConfigId="e0195c4d-ba99-49cb-9485-32dc60a5ff45" sshConfig="offcie-class">
+        <fileTransfer rootFolder="/home/bitrix/prod/public" accessType="SFTP" host="212.109.216.222" port="22" sshConfigId="e0195c4d-ba99-49cb-9485-32dc60a5ff45" sshConfig="offcie-class">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
