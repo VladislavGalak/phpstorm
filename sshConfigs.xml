@@ -25,6 +25,9 @@
       <sshConfig authType="PASSWORD" host="62.109.25.87" id="dc8082d3-39f7-4224-9891-dffc98fab143" port="22" customName="biopodushka" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="biopodushka" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="95.142.40.204" id="3290a490-d748-44f4-8e8a-ec225c75f430" port="22" customName="ugreen" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="ugreen" />
+      </sshConfig>
     </configs>
   </component>
 </application>

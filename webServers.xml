@@ -57,6 +57,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="61da8b25-8988-4ba6-a53e-59c422305a75" name="usbru">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/usbru.ru" accessType="SFTP" host="95.142.40.204" port="22" sshConfigId="3290a490-d748-44f4-8e8a-ec225c75f430" sshConfig="ugreen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
