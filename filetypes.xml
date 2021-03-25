@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".access" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
