@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="5f2cb566-94e5-41ba-a566-77474cb82924" name="greenconnect-russia">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/greenconnect-russia.ru" accessType="SFTP" host="95.142.40.204" port="22" sshConfigId="3290a490-d748-44f4-8e8a-ec225c75f430" sshConfig="ugreen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="8fa59a67-e1e9-4fc2-b30c-b2490c010bc2" name="dev.myscent.ru">
         <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="159.69.57.151" port="22" sshConfigId="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" sshConfig="dev.myscent.ru">
           <advancedOptions>
