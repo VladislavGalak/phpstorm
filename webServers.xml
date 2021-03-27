@@ -71,6 +71,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="43c3b6d1-658d-4fff-9611-396253c405f0" name="b27.askaron">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/b27.askaron.ru" accessType="SFTP" host="95.142.39.10" port="22" sshConfigId="38d798a5-d6ec-4f84-b2e1-373512b05780" sshConfig="labs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
