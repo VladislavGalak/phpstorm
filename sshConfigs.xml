@@ -34,6 +34,9 @@
       <sshConfig authType="PASSWORD" host="185.60.134.249" id="2b0b50ae-5a1a-4f54-a97d-3ba698248525" port="22" customName="na-hodu" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="na-hodu" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="crm.ucsl.eu" id="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" port="22023" customName="crm.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="crm.ucsl.eu" />
+      </sshConfig>
     </configs>
   </component>
 </application>

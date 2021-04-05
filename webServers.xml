@@ -85,6 +85,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="22adea25-7fc9-4c95-98ae-a3db3ba98a19" name="crm.ucsl.eu">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="crm.ucsl.eu" port="22023" sshConfigId="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" sshConfig="crm.ucsl.eu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
