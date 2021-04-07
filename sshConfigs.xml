@@ -37,6 +37,9 @@
       <sshConfig authType="PASSWORD" host="crm.ucsl.eu" id="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" port="22023" customName="crm.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="crm.ucsl.eu" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="bitrix.ucsl.eu" id="22631a39-1223-4447-aef9-5af75550de00" port="22023" customName="bitrix.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="bitrix.ucsl.eu" />
+      </sshConfig>
     </configs>
   </component>
 </application>
