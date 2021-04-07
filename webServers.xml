@@ -1,6 +1,20 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="845c164e-5dd7-4ab5-ad87-55600cc70ec8" name="na-hodu">
+        <fileTransfer rootFolder="/home/bitrix/ext_www" accessType="SFTP" host="185.60.134.249" port="22" sshConfigId="2b0b50ae-5a1a-4f54-a97d-3ba698248525" sshConfig="na-hodu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5f2cb566-94e5-41ba-a566-77474cb82924" name="greenconnect-russia">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/greenconnect-russia.ru" accessType="SFTP" host="95.142.40.204" port="22" sshConfigId="3290a490-d748-44f4-8e8a-ec225c75f430" sshConfig="ugreen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="8fa59a67-e1e9-4fc2-b30c-b2490c010bc2" name="dev.myscent.ru">
         <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="159.69.57.151" port="22" sshConfigId="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" sshConfig="dev.myscent.ru">
           <advancedOptions>
@@ -16,14 +30,14 @@
         </fileTransfer>
       </webServer>
       <webServer id="d51e9a07-89b6-49d7-9e3f-290db82bc61e" name="loudsound" url="http://212.109.218.2">
-        <fileTransfer rootFolder="/home/bitrix/ext_www/dev.loudsound.ru" accessType="SFTP" host="212.109.218.2" port="22" sshConfigId="60641dae-3881-4970-bd79-1125d94397bc" sshConfig="loudsound">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="212.109.218.2" port="22" sshConfigId="60641dae-3881-4970-bd79-1125d94397bc" sshConfig="loudsound">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="ce5e6b23-2eed-4962-88fb-172dc4c77903" name="offcie-class" url="http://212.109.216.222">
-        <fileTransfer rootFolder="/home/bitrix/dev/public" accessType="SFTP" host="212.109.216.222" port="22" sshConfigId="e0195c4d-ba99-49cb-9485-32dc60a5ff45" sshConfig="offcie-class">
+        <fileTransfer rootFolder="/home/bitrix/prod/public" accessType="SFTP" host="212.109.216.222" port="22" sshConfigId="e0195c4d-ba99-49cb-9485-32dc60a5ff45" sshConfig="offcie-class">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -52,6 +66,27 @@
       </webServer>
       <webServer id="88d137f0-1745-4b01-91ce-1dbf8e228860" name="biopodushka">
         <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="62.109.25.87" port="22" sshConfigId="dc8082d3-39f7-4224-9891-dffc98fab143" sshConfig="biopodushka">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="61da8b25-8988-4ba6-a53e-59c422305a75" name="usbru">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/usbru.ru" accessType="SFTP" host="95.142.40.204" port="22" sshConfigId="3290a490-d748-44f4-8e8a-ec225c75f430" sshConfig="ugreen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="43c3b6d1-658d-4fff-9611-396253c405f0" name="b27.askaron">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/b27.askaron.ru" accessType="SFTP" host="95.142.39.10" port="22" sshConfigId="38d798a5-d6ec-4f84-b2e1-373512b05780" sshConfig="labs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="22adea25-7fc9-4c95-98ae-a3db3ba98a19" name="crm.ucsl.eu">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="crm.ucsl.eu" port="22023" sshConfigId="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" sshConfig="crm.ucsl.eu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
