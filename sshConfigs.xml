@@ -1,40 +1,40 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="87.236.16.207" id="7bdc760d-e474-4c6a-aa40-994e79be1e5e" port="22" customName="pk-process" nameFormat="CUSTOM">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="87.236.16.207" id="7bdc760d-e474-4c6a-aa40-994e79be1e5e" port="22" customName="pk-process" nameFormat="CUSTOM">
         <option name="customName" value="pk-process" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="212.109.218.2" id="60641dae-3881-4970-bd79-1125d94397bc" port="22" customName="loudsound" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="212.109.218.2" id="60641dae-3881-4970-bd79-1125d94397bc" port="22" customName="loudsound" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="loudsound" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="212.109.216.222" id="e0195c4d-ba99-49cb-9485-32dc60a5ff45" port="22" customName="offcie-class" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="212.109.216.222" id="e0195c4d-ba99-49cb-9485-32dc60a5ff45" port="22" customName="offcie-class" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="offcie-class" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="92.62.112.31" id="fda1d625-4825-41d3-971d-00072f515386" port="108" customName="eksmo" nameFormat="CUSTOM">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="92.62.112.31" id="fda1d625-4825-41d3-971d-00072f515386" port="108" customName="eksmo" nameFormat="CUSTOM">
         <option name="customName" value="eksmo" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="vsemitut.ru" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="myscent" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="159.69.57.151" id="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" port="22" customName="dev.myscent.ru" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="159.69.57.151" id="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" port="22" customName="dev.myscent.ru" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="dev.myscent.ru" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="62.109.25.87" id="dc8082d3-39f7-4224-9891-dffc98fab143" port="22" customName="biopodushka" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="62.109.25.87" id="dc8082d3-39f7-4224-9891-dffc98fab143" port="22" customName="biopodushka" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="biopodushka" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="95.142.40.204" id="3290a490-d748-44f4-8e8a-ec225c75f430" port="22" customName="ugreen" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="95.142.40.204" id="3290a490-d748-44f4-8e8a-ec225c75f430" port="22" customName="ugreen" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="ugreen" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="95.142.39.10" id="38d798a5-d6ec-4f84-b2e1-373512b05780" port="22" customName="labs" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="95.142.39.10" id="38d798a5-d6ec-4f84-b2e1-373512b05780" port="22" customName="labs" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="labs" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="185.60.134.249" id="2b0b50ae-5a1a-4f54-a97d-3ba698248525" port="22" customName="na-hodu" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="185.60.134.249" id="2b0b50ae-5a1a-4f54-a97d-3ba698248525" port="22" customName="na-hodu" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="na-hodu" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="crm.ucsl.eu" id="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" port="22023" customName="crm.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="crm.ucsl.eu" id="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" port="22023" customName="crm.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="crm.ucsl.eu" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="bitrix.ucsl.eu" id="22631a39-1223-4447-aef9-5af75550de00" port="22023" customName="bitrix.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
