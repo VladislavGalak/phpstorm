@@ -4,7 +4,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="87.236.16.207" id="7bdc760d-e474-4c6a-aa40-994e79be1e5e" port="22" customName="pk-process" nameFormat="CUSTOM">
         <option name="customName" value="pk-process" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="212.109.218.2" id="60641dae-3881-4970-bd79-1125d94397bc" port="22" customName="loudsound" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="212.109.218.2" id="60641dae-3881-4970-bd79-1125d94397bc" keyPath="$USER_HOME$/.ssh/storm" port="22" customName="loudsound" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="loudsound" />
       </sshConfig>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="212.109.216.222" id="e0195c4d-ba99-49cb-9485-32dc60a5ff45" port="22" customName="offcie-class" nameFormat="CUSTOM" username="bitrix">
