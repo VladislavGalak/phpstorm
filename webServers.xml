@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="6796021f-6b69-46ff-9731-dd56129da62d" name="properimetr.ru" url="http://5.63.152.109">
+        <fileTransfer rootFolder="/home/m/marketl6/properimetr.ru/public_html" accessType="SFTP" host="193.176.77.39" port="22" sshConfigId="168ad747-8e38-44bf-9a3b-64d89d35af30" sshConfig="marketl6_askaron@193.176.77.39:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="845c164e-5dd7-4ab5-ad87-55600cc70ec8" name="na-hodu">
         <fileTransfer rootFolder="/home/bitrix/ext_www" accessType="SFTP" host="185.60.134.249" port="22" sshConfigId="2b0b50ae-5a1a-4f54-a97d-3ba698248525" sshConfig="na-hodu">
           <advancedOptions>
