@@ -50,13 +50,6 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="da69a6d9-56ff-4708-968d-dfc7aac3aa87" name="eksmo" url="http://92.62.112.31">
-        <fileTransfer rootFolder="/var/www/dev/" accessType="SFTP" host="92.62.112.31" port="108" sshConfigId="fda1d625-4825-41d3-971d-00072f515386" sshConfig="eksmo">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="893489c8-34de-4cf3-88fa-b7665dadc066" name="vsemitut.ru" url="https://www.vsemitut.ru">
         <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="185.154.52.207" port="22" sshConfigId="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" sshConfig="vsemitut.ru" keyPair="true">
           <advancedOptions>
@@ -87,13 +80,6 @@
       </webServer>
       <webServer id="43c3b6d1-658d-4fff-9611-396253c405f0" name="b27.askaron">
         <fileTransfer rootFolder="/home/bitrix/ext_www/b27.askaron.ru" accessType="SFTP" host="95.142.39.10" port="22" sshConfigId="38d798a5-d6ec-4f84-b2e1-373512b05780" sshConfig="labs">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="22adea25-7fc9-4c95-98ae-a3db3ba98a19" name="crm.ucsl.eu">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="crm.ucsl.eu" port="22023" sshConfigId="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" sshConfig="crm.ucsl.eu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
