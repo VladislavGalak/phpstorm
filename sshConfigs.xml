@@ -41,6 +41,9 @@
         <option name="customName" value="bitrix.ucsl.eu" />
       </sshConfig>
       <sshConfig host="193.176.77.39" id="168ad747-8e38-44bf-9a3b-64d89d35af30" keyPath="$USER_HOME$/.ssh/storm" port="22" nameFormat="DESCRIPTIVE" username="marketl6_askaron" />
+      <sshConfig host="5.45.116.38" id="97c5ae7e-f13b-49f0-81c1-112efda532fc" keyPath="$USER_HOME$/.ssh/storm" port="22" customName="dnkom" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="dnkom" />
+      </sshConfig>
     </configs>
   </component>
 </application>
