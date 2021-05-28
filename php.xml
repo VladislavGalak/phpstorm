@@ -48,4 +48,8 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpSmartKeysConfiguration">
+    <option name="autoInsertFullPhpOpenTag" value="false" />
+    <option name="selectVariableNameWithoutDollar" value="true" />
+  </component>
 </application>

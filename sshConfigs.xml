@@ -7,13 +7,13 @@
       <sshConfig authType="PASSWORD" host="212.109.218.2" id="60641dae-3881-4970-bd79-1125d94397bc" port="22" customName="loudsound" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="loudsound" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="212.109.216.222" id="e0195c4d-ba99-49cb-9485-32dc60a5ff45" port="22" customName="offcie-class" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig host="212.109.216.222" id="e0195c4d-ba99-49cb-9485-32dc60a5ff45" keyPath="$USER_HOME$/.ssh/storm" port="22" customName="offcie-class" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="offcie-class" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="92.62.112.31" id="fda1d625-4825-41d3-971d-00072f515386" port="108" customName="eksmo" nameFormat="CUSTOM">
         <option name="customName" value="eksmo" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" port="22" customName="vsemitut.ru" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig host="185.154.52.207" id="6bf1b32c-bb0a-423b-87de-9a1c7d15a1ff" keyPath="$USER_HOME$/.ssh/storm" port="22" customName="vsemitut.ru" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="vsemitut.ru" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="159.69.57.150" id="aca84fba-0852-4790-a3ee-0558ba137661" port="22" customName="myscent" nameFormat="CUSTOM" username="bitrix">
@@ -22,7 +22,7 @@
       <sshConfig authType="PASSWORD" host="159.69.57.151" id="4b0ff62b-4f1f-46fb-bc5c-17d0ceddc387" port="22" customName="dev.myscent.ru" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="dev.myscent.ru" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="62.109.25.87" id="dc8082d3-39f7-4224-9891-dffc98fab143" port="22" customName="biopodushka" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig host="62.109.25.87" id="dc8082d3-39f7-4224-9891-dffc98fab143" keyPath="$USER_HOME$/.ssh/storm" port="22" customName="biopodushka" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="biopodushka" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="95.142.40.204" id="3290a490-d748-44f4-8e8a-ec225c75f430" port="22" customName="ugreen" nameFormat="CUSTOM" username="bitrix">
@@ -36,6 +36,13 @@
       </sshConfig>
       <sshConfig authType="PASSWORD" host="crm.ucsl.eu" id="e0de13b5-2bf5-4ecf-8bb2-986e3e4ec19c" port="22023" customName="crm.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="crm.ucsl.eu" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="bitrix.ucsl.eu" id="22631a39-1223-4447-aef9-5af75550de00" port="22023" customName="bitrix.ucsl.eu" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="bitrix.ucsl.eu" />
+      </sshConfig>
+      <sshConfig host="193.176.77.39" id="168ad747-8e38-44bf-9a3b-64d89d35af30" keyPath="$USER_HOME$/.ssh/storm" port="22" nameFormat="DESCRIPTIVE" username="marketl6_askaron" />
+      <sshConfig host="5.45.116.38" id="97c5ae7e-f13b-49f0-81c1-112efda532fc" keyPath="$USER_HOME$/.ssh/storm" port="22" customName="dnkom" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="dnkom" />
       </sshConfig>
     </configs>
   </component>
