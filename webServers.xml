@@ -8,6 +8,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="00d714c2-39e4-4673-9b16-47bcfb065bec" name="gofromir">
+        <fileTransfer rootFolder="/home/gofromir/dev.gofromir.air-dev.agency/app/www" accessType="SFTP" host="dev.gofromir.air-tech.agency" port="22" sshConfigId="930ee37d-7ba0-4c6a-a7af-5abc0aa7b2af" sshConfig="gofromir@dev.gofromir.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
