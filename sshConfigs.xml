@@ -4,6 +4,7 @@
       <sshConfig host="dev.dobrostroj.air-tech.agency" id="eaa3b674-2cd8-46d9-9056-8d96028b8067" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="dobrostroj" />
       <sshConfig host="dev.gofromir.air-tech.agency" id="930ee37d-7ba0-4c6a-a7af-5abc0aa7b2af" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="gofromir" />
       <sshConfig authType="PASSWORD" host="185.154.52.143" id="02b116e5-ca84-44eb-8040-b18cfadc8bc0" port="22" nameFormat="DESCRIPTIVE" username="bitrix" />
+      <sshConfig host="62.76.185.178" id="246035ce-b505-4c13-972a-a67ed71f792d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ipo" />
     </configs>
   </component>
 </application>
