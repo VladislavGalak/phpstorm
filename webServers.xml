@@ -4,7 +4,7 @@
       <webServer id="e3bc22c0-828f-4fcd-88d8-9ae75941090f" name="dobrostroj">
         <fileTransfer rootFolder="/home/dobrostroj/dev2.dobrostroj.air-dev.agency/app/www" accessType="SFTP" host="dev.dobrostroj.air-tech.agency" port="22" sshConfigId="eaa3b674-2cd8-46d9-9056-8d96028b8067" sshConfig="dobrostroj@dev.dobrostroj.air-tech.agency:22 key" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
