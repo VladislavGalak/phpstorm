@@ -1,0 +1,41 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e3bc22c0-828f-4fcd-88d8-9ae75941090f" name="dobrostroj">
+        <fileTransfer rootFolder="/home/dobrostroj/dev.dobrostroj.air-dev.agency/app/www" accessType="SFTP" host="dev.dobrostroj.air-tech.agency" port="22" sshConfigId="eaa3b674-2cd8-46d9-9056-8d96028b8067" sshConfig="dobrostroj@dev.dobrostroj.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="00d714c2-39e4-4673-9b16-47bcfb065bec" name="gofromir">
+        <fileTransfer rootFolder="/home/gofromir/dev.gofromir.air-dev.agency/app/www" accessType="SFTP" host="dev.gofromir.air-tech.agency" port="22" sshConfigId="930ee37d-7ba0-4c6a-a7af-5abc0aa7b2af" sshConfig="gofromir@dev.gofromir.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ba2b61f3-61e2-4fab-9332-8662018b769d" name="vsemitut">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="185.154.52.143" port="22" sshConfigId="02b116e5-ca84-44eb-8040-b18cfadc8bc0" sshConfig="bitrix@185.154.52.143:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ab01a3d6-e146-4ef6-8d5a-f436022bf406" name="ipo-company">
+        <fileTransfer rootFolder="/home/ipo/id.ipo-company.com/app/www" accessType="SFTP" host="62.76.185.178" port="22" sshConfigId="246035ce-b505-4c13-972a-a67ed71f792d" sshConfig="ipo@62.76.185.178:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fd7b8db0-41bd-4661-8d90-e443dbb87c1e" name="dev.selgros">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="178.154.200.6" port="22" sshConfigId="9f39d07e-c3b6-40cb-84cd-261c347b2f50" sshConfig="dev.selgros" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
