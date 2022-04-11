@@ -12,6 +12,7 @@
       <mapping pattern="export(2021-04-03)__01:29php" type="AUTO_DETECTED" />
       <mapping ext="pug" type="PHP" />
       <mapping pattern=".description" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".access" type="PLAIN_TEXT" />
       <mapping ext="log_1619610423" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
