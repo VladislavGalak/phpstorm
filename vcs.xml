@@ -6,6 +6,10 @@
           <option name="url" value="http://gitlab.catzwolf.ru:8443" />
           <option name="userName" value="1zanee1@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.aeroidea.ru" />
+          <option name="userName" value="galak@air.agency" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
