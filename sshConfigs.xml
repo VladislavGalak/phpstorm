@@ -11,6 +11,9 @@
       <sshConfig host="95.213.177.202" id="ffa53b90-8a4f-4312-9b1d-483b998e69b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="root">
         <option name="customName" value="dev.ultralinzi" />
       </sshConfig>
+      <sshConfig host="back.ipo.air-tech.agency" id="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ipo.company" nameFormat="CUSTOM" username="ipo">
+        <option name="customName" value="dev.ipo.company" />
+      </sshConfig>
     </configs>
   </component>
 </application>
