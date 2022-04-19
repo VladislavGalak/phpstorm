@@ -14,6 +14,9 @@
       <sshConfig host="back.ipo.air-tech.agency" id="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ipo.company" nameFormat="CUSTOM" username="ipo">
         <option name="customName" value="dev.ipo.company" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="95.213.177.204" id="0bf151ca-507e-4f4d-8c45-8f82931a1e77" port="22" customName="holisal" nameFormat="CUSTOM" username="debian">
+        <option name="customName" value="holisal" />
+      </sshConfig>
     </configs>
   </component>
 </application>
