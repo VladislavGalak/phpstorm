@@ -51,7 +51,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="4ba4730d-0eed-49d1-9906-f68ba65caa85" name="holisal">
-        <fileTransfer rootFolder="/srv/www/feedback-ultralinzi-backend/public" accessType="SFTP" host="95.213.177.204" port="22" sshConfigId="0bf151ca-507e-4f4d-8c45-8f82931a1e77" sshConfig="holisal">
+        <fileTransfer rootFolder="/srv/www/kaspersky_akadem_back" accessType="SFTP" host="95.213.177.204" port="22" sshConfigId="0bf151ca-507e-4f4d-8c45-8f82931a1e77" sshConfig="holisal">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
