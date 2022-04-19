@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="export(2021-04-01)__23:44php" type="AUTO_DETECTED" />
+      <mapping pattern="Makefile" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-01)__14:55php" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-02)__12:29php" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-02)__22:20php" type="AUTO_DETECTED" />
