@@ -65,7 +65,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="5459e9f4-6478-4546-8710-d88337672156" name="pharmgeocom">
-        <fileTransfer rootFolder="/home/pharmgeocom/dev.pharmgeocom.air-dev.agency" accessType="SFTP" host="185.200.240.244" port="22" sshConfigId="89b35a9f-4dea-4787-82df-afe7e01fd60e" sshConfig="pharmgeocom@185.200.240.244:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/pharmgeocom/front.pharmgeocom.air-dev.agency/app/www" accessType="SFTP" host="185.200.240.244" port="22" sshConfigId="89b35a9f-4dea-4787-82df-afe7e01fd60e" sshConfig="pharmgeocom@185.200.240.244:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
