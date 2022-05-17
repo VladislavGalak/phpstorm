@@ -21,6 +21,9 @@
         <option name="customName" value="bausch" />
       </sshConfig>
       <sshConfig host="185.200.240.244" id="89b35a9f-4dea-4787-82df-afe7e01fd60e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="pharmgeocom" />
+      <sshConfig host="95.213.177.204" id="30fb9c3b-168d-459d-a913-ffc79dbbbfe3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="forms.ultralinzi" nameFormat="CUSTOM" username="debian">
+        <option name="customName" value="forms.ultralinzi" />
+      </sshConfig>
     </configs>
   </component>
 </application>
