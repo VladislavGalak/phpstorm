@@ -29,7 +29,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="aut" value="require($_SERVER[&quot;DOCUMENT_ROOT&quot;] . &quot;/bitrix/header.php&quot;); &#10;global $USER; &#10;$USER-&gt;Authorize(1); &#10;@unlink(__FILE__); &#10;LocalRedirect(&quot;/bitrix/admin/&quot;); &#10;require($_SERVER[&quot;DOCUMENT_ROOT&quot;].&quot;/bitrix/footer.php&quot;);" toReformat="false" toShortenFQNames="true">
+  <template name="aut" value="require($_SERVER[&quot;DOCUMENT_ROOT&quot;] . &quot;/bitrix/header.php&quot;); &#10;global $USER; &#10;$USER-&gt;Authorize(1); &#10;@unlink(__FILE__); &#10;LocalRedirect(&quot;/bitrix/admin/&quot;); &#10;require($_SERVER[&quot;DOCUMENT_ROOT&quot;].&quot;/bitrix/footer.php&quot;);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
