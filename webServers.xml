@@ -85,6 +85,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="69523e47-531b-4c29-bd51-a2d00d449845" name="old.vsemitut">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="185.154.52.207" port="22" sshConfigId="c120f656-cb25-4eee-bf83-f2210912722c" sshConfig="old.vsemitut">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

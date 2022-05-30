@@ -27,6 +27,9 @@
       <sshConfig authType="PASSWORD" host="82.146.46.131" id="d711f7b8-4eb3-4c02-a08c-492dcdd7f7d0" port="22" customName="crm.ipo" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="crm.ipo" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="185.154.52.207" id="c120f656-cb25-4eee-bf83-f2210912722c" port="22" customName="old.vsemitut" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="old.vsemitut" />
+      </sshConfig>
     </configs>
   </component>
 </application>
