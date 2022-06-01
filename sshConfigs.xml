@@ -30,6 +30,9 @@
       <sshConfig authType="PASSWORD" host="185.154.52.207" id="c120f656-cb25-4eee-bf83-f2210912722c" port="22" customName="old.vsemitut" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="old.vsemitut" />
       </sshConfig>
+      <sshConfig host="95.213.177.204" id="5080f876-6fd9-44c6-b01c-069daec7bc9f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="flocktory" nameFormat="CUSTOM" username="debian">
+        <option name="customName" value="flocktory" />
+      </sshConfig>
     </configs>
   </component>
 </application>

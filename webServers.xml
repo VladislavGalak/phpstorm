@@ -92,6 +92,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="ecea1eb0-e78e-4299-ba4e-477ee6c7e236" name="flocktory">
+        <fileTransfer rootFolder="/srv/www/flocktory/flocktory-backend" accessType="SFTP" host="95.213.177.204" port="22" sshConfigId="5080f876-6fd9-44c6-b01c-069daec7bc9f" sshConfig="flocktory" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
