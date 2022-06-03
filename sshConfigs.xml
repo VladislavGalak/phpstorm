@@ -8,8 +8,8 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="178.154.200.6" id="9f39d07e-c3b6-40cb-84cd-261c347b2f50" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.selgros" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="dev.selgros" />
       </sshConfig>
-      <sshConfig host="95.213.177.202" id="ffa53b90-8a4f-4312-9b1d-483b998e69b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="ultralinzi">
-        <option name="customName" value="dev.ultralinzi" />
+      <sshConfig host="95.213.177.202" id="ffa53b90-8a4f-4312-9b1d-483b998e69b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="test.ultralinzi" nameFormat="CUSTOM" username="ultralinzi">
+        <option name="customName" value="test.ultralinzi" />
       </sshConfig>
       <sshConfig host="back.ipo.air-tech.agency" id="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ipo.company" nameFormat="CUSTOM" username="ipo">
         <option name="customName" value="dev.ipo.company" />
@@ -32,6 +32,9 @@
       </sshConfig>
       <sshConfig host="95.213.177.204" id="5080f876-6fd9-44c6-b01c-069daec7bc9f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="flocktory" nameFormat="CUSTOM" username="debian">
         <option name="customName" value="flocktory" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="ultralinzi-old.catzwolf.ru" id="9f983230-13bd-43b1-9648-8ada59aaa371" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="ultralinzi">
+        <option name="customName" value="dev.ultralinzi" />
       </sshConfig>
     </configs>
   </component>

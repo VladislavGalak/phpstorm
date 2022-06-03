@@ -50,8 +50,8 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="cd34dfe0-8c9a-4fd6-9c9c-7d39148b7a36" name="dev.ultralinzi">
-        <fileTransfer rootFolder="/srv/www/ultralinzi.catzwolf.ru/htdocs" accessType="SFTP" host="95.213.177.202" port="22" sshConfigId="ffa53b90-8a4f-4312-9b1d-483b998e69b3" sshConfig="dev.ultralinzi" keyPair="true">
+      <webServer id="cd34dfe0-8c9a-4fd6-9c9c-7d39148b7a36" name="test.ultralinzi">
+        <fileTransfer rootFolder="/srv/www/ultralinzi.catzwolf.ru/htdocs" accessType="SFTP" host="95.213.177.202" port="22" sshConfigId="ffa53b90-8a4f-4312-9b1d-483b998e69b3" sshConfig="test.ultralinzi" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -94,6 +94,13 @@
       </webServer>
       <webServer id="ecea1eb0-e78e-4299-ba4e-477ee6c7e236" name="flocktory">
         <fileTransfer rootFolder="/srv/www/flocktory/flocktory-backend" accessType="SFTP" host="95.213.177.204" port="22" sshConfigId="5080f876-6fd9-44c6-b01c-069daec7bc9f" sshConfig="flocktory" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5bbc26e8-a409-4554-a372-b48719805275" name="dev.ultralinzi">
+        <fileTransfer rootFolder="/srv/www/ultralinzi-old.catzwolf.ru/htdocs/web" accessType="SFTP" host="ultralinzi-old.catzwolf.ru" port="22" sshConfigId="9f983230-13bd-43b1-9648-8ada59aaa371" sshConfig="dev.ultralinzi">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
