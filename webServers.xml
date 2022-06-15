@@ -106,6 +106,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="ac0ed393-3064-4257-a01a-86be3d4cc917" name="fisting.ultralinzi">
+        <fileTransfer rootFolder="/srv/www/onlinefitting_ultralinzi.catzwolf.ru/htdocs" accessType="SFTP" host="onlinefitting-ultralinzi.catzwolf.ru" port="22" sshConfigId="5cb9b8c3-9f95-46f2-81e4-8021f697b1eb" sshConfig="fisting.ultralinzi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

@@ -36,6 +36,9 @@
       <sshConfig authType="PASSWORD" host="ultralinzi-old.catzwolf.ru" id="9f983230-13bd-43b1-9648-8ada59aaa371" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="ultralinzi">
         <option name="customName" value="dev.ultralinzi" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="onlinefitting-ultralinzi.catzwolf.ru" id="5cb9b8c3-9f95-46f2-81e4-8021f697b1eb" port="22" customName="fisting.ultralinzi" nameFormat="CUSTOM" username="onlinefitting_ultralinzi">
+        <option name="customName" value="fisting.ultralinzi" />
+      </sshConfig>
     </configs>
   </component>
 </application>
