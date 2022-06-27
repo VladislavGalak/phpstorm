@@ -65,7 +65,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="580c4dd6-db07-4a89-bb98-77e3305737fe" name="bausch">
-        <fileTransfer rootFolder="/var/www/test.notagency.ru/bausch-docker" accessType="SFTP" host="notagency.ru" port="9123" sshConfigId="35f2c8cb-1c5c-4948-999b-d6c4115fd822" sshConfig="bausch" keyPair="true">
+        <fileTransfer rootFolder="/srv/www/bausch-expert-dev.catzwolf.ru/htdocs" accessType="SFTP" host="bausch-expert-dev.catzwolf.ru" port="22" sshConfigId="35f2c8cb-1c5c-4948-999b-d6c4115fd822" sshConfig="bausch">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
