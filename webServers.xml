@@ -114,7 +114,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="14c1f14e-317c-4ea5-af96-f74735a94c79" name="vizelya">
-        <fileTransfer rootFolder="/srv/www/bausch-visleya.catzwolf.ru/htdocs" accessType="SFTP" host="bausch-visleya.catzwolf.ru" port="22" sshConfigId="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" sshConfig="viselya">
+        <fileTransfer rootFolder="/srv/www/bausch-visleya-tmp.catzwolf.ru" accessType="SFTP" host="bausch-visleya-tmp.catzwolf.ru" port="22" sshConfigId="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" sshConfig="viselya">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

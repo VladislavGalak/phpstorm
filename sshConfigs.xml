@@ -39,7 +39,7 @@
       <sshConfig authType="PASSWORD" host="onlinefitting-ultralinzi.catzwolf.ru" id="5cb9b8c3-9f95-46f2-81e4-8021f697b1eb" port="22" customName="fisting.ultralinzi" nameFormat="CUSTOM" username="onlinefitting_ultralinzi">
         <option name="customName" value="fisting.ultralinzi" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="bausch-visleya.catzwolf.ru" id="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" port="22" customName="viselya" nameFormat="CUSTOM" username="bausch-visleya">
+      <sshConfig authType="PASSWORD" host="bausch-visleya-tmp.catzwolf.ru" id="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" port="22" customName="viselya" nameFormat="CUSTOM" username="bausch-visleya-tmp">
         <option name="customName" value="viselya" />
       </sshConfig>
     </configs>
