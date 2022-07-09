@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="825a616d-3b26-4994-8b0f-94692a173c34" name="glazarf">
+        <fileTransfer rootFolder="/srv/www/tvoiglaza.catzwolf.ru" accessType="SFTP" host="tvoiglaza.catzwolf.ru" port="22" sshConfigId="96f2d418-0384-4043-8962-4887d4fe2404" sshConfig="dev.glaza">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="28220304-25bb-4f0d-9fe8-b3398c3c6b32" name="forms.ultralinzi">
         <fileTransfer rootFolder="/srv/www/feedback-ultralinzi-backend" accessType="SFTP" host="95.213.177.204" port="22" sshConfigId="30fb9c3b-168d-459d-a913-ffc79dbbbfe3" sshConfig="forms.ultralinzi" keyPair="true">
           <advancedOptions>
