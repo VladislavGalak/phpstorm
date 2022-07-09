@@ -1,7 +1,7 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="825a616d-3b26-4994-8b0f-94692a173c34" name="glazarf">
+      <webServer id="825a616d-3b26-4994-8b0f-94692a173c34" name="dev.glazarf">
         <fileTransfer rootFolder="/srv/www/tvoiglaza.catzwolf.ru" accessType="SFTP" host="tvoiglaza.catzwolf.ru" port="22" sshConfigId="96f2d418-0384-4043-8962-4887d4fe2404" sshConfig="dev.glaza">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />

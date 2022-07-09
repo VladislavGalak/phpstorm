@@ -42,6 +42,9 @@
       <sshConfig authType="PASSWORD" host="bausch-visleya-tmp.catzwolf.ru" id="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" port="22" customName="viselya" nameFormat="CUSTOM" username="bausch-visleya-tmp">
         <option name="customName" value="viselya" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" host="tvoiglaza.catzwolf.ru" id="96f2d418-0384-4043-8962-4887d4fe2404" port="22" customName="dev.glaza" nameFormat="CUSTOM" username="tvoiglaza">
+        <option name="customName" value="dev.glaza" />
+      </sshConfig>
     </configs>
   </component>
 </application>
