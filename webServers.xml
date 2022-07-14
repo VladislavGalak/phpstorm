@@ -127,6 +127,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="6c767c5f-def0-4dc3-be0b-ec70de8aed57" name="dev.osetr">
+        <fileTransfer rootFolder="/home/vgalak/sites/osetr-dev-1.uplab.digital" accessType="SFTP" host="osetr-dev-1.uplab.digital" port="22" sshConfigId="8d802473-30eb-4707-88e8-2a10e0fa6bd9" sshConfig="dev.osetr" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

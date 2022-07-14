@@ -45,6 +45,9 @@
       <sshConfig authType="PASSWORD" host="tvoiglaza.catzwolf.ru" id="96f2d418-0384-4043-8962-4887d4fe2404" port="22" customName="dev.glaza" nameFormat="CUSTOM" username="tvoiglaza">
         <option name="customName" value="dev.glaza" />
       </sshConfig>
+      <sshConfig host="osetr-dev-1.uplab.digital" id="8d802473-30eb-4707-88e8-2a10e0fa6bd9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.osetr" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="dev.osetr" />
+      </sshConfig>
     </configs>
   </component>
 </application>
