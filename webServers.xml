@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="05a94438-a3fa-4c10-9ab0-0ff18918b016" name="mtt">
+        <fileTransfer rootFolder="/home/vgalak/sites/mtt-dev-4.uplab.digital" accessType="SFTP" host="84.23.53.134" port="22" sshConfigId="7394f6c7-1d2c-4a1f-b0a4-96f6e8fa5fa6" sshConfig="mtt" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="aa7a04b4-e862-4f3a-81f6-f6586684ee2c" name="old.osetr">
         <fileTransfer rootFolder="/home/vgalak/sites/osetr-preprod.uplab.digital" accessType="SFTP" host="osetr-dev-1.uplab.digital" port="22" sshConfigId="8d802473-30eb-4707-88e8-2a10e0fa6bd9" sshConfig="dev.osetr" keyPair="true">
           <advancedOptions>
