@@ -65,7 +65,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="fd7b8db0-41bd-4661-8d90-e443dbb87c1e" name="dev.selgros">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="178.154.200.6" port="22" sshConfigId="9f39d07e-c3b6-40cb-84cd-261c347b2f50" sshConfig="dev.selgros" keyPair="true">
+        <fileTransfer rootFolder="/home/selgros/dev.selgros.air-dev.agency/app/www" accessType="SFTP" host="dev.selgros.air-tech.agency" port="22" sshConfigId="9f39d07e-c3b6-40cb-84cd-261c347b2f50" sshConfig="dev.selgros" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
