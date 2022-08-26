@@ -148,6 +148,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="c6b1deeb-a67a-4c44-b441-7f10d7f92b2e" name="pulkovo">
+        <fileTransfer rootFolder="/home/pulkovo/dev.pulkovo.air-dev.agency" accessType="SFTP" host="dev.pulkovo.air-tech.agency" port="22" sshConfigId="e7543d70-1976-4649-8349-bb3308bcfd9d" sshConfig="pulkovo@dev.pulkovo.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

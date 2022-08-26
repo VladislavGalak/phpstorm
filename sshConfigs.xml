@@ -51,6 +51,7 @@
       <sshConfig host="84.23.53.134" id="7394f6c7-1d2c-4a1f-b0a4-96f6e8fa5fa6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="mtt" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="mtt" />
       </sshConfig>
+      <sshConfig host="dev.pulkovo.air-tech.agency" id="e7543d70-1976-4649-8349-bb3308bcfd9d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="pulkovo" />
     </configs>
   </component>
 </application>
