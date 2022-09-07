@@ -155,6 +155,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="13806620-0341-414a-9fae-acf2f1c77988" name="francesca">
+        <fileTransfer rootFolder="/home/francesco/dev.francesco.air-dev.agency" accessType="SFTP" host="dev.francesco.air-tech.agency" port="22" sshConfigId="75729593-2f36-42c2-bf8c-fb733e5bf68b" sshConfig="francesco@dev.francesco.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
