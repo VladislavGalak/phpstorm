@@ -163,7 +163,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="1e7a5ca4-4616-42f9-8ca7-9a130f761bb1" name="dev.rusklimat">
-        <fileTransfer accessType="SFTP" host="dev.rusklimat.air-tech.agency" port="22" sshConfigId="73cf1aef-3197-41be-891c-9772f08883aa" sshConfig="rusklimat@dev.rusklimat.air-tech.agency:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/rusklimat/dev.rusklimat.air-dev.agency" accessType="SFTP" host="dev.rusklimat.air-tech.agency" port="22" sshConfigId="73cf1aef-3197-41be-891c-9772f08883aa" sshConfig="rusklimat@dev.rusklimat.air-tech.agency:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
