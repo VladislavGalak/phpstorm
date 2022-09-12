@@ -170,7 +170,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="6b4b2960-c85e-4fad-a232-21629003b929" name="RK">
-        <fileTransfer rootFolder="/home/galak_v" accessType="SFTP" host="RK-test" port="22" sshConfigId="d6ac1710-57e2-492d-a6b4-9a2bd2819863" sshConfig="RK" authAgent="true">
+        <fileTransfer rootFolder="/home/bitrix/www/" accessType="SFTP" host="RK-test" port="22" sshConfigId="d6ac1710-57e2-492d-a6b4-9a2bd2819863" sshConfig="RK" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
