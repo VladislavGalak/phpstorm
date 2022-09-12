@@ -54,6 +54,9 @@
       <sshConfig host="dev.pulkovo.air-tech.agency" id="e7543d70-1976-4649-8349-bb3308bcfd9d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="pulkovo" />
       <sshConfig host="dev.francesco.air-tech.agency" id="75729593-2f36-42c2-bf8c-fb733e5bf68b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="francesco" />
       <sshConfig host="dev.rusklimat.air-tech.agency" id="73cf1aef-3197-41be-891c-9772f08883aa" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="rusklimat" />
+      <sshConfig authType="OPEN_SSH" host="RK-test" id="d6ac1710-57e2-492d-a6b4-9a2bd2819863" port="22" customName="RK" nameFormat="CUSTOM" username="galak_v">
+        <option name="customName" value="RK" />
+      </sshConfig>
     </configs>
   </component>
 </application>
