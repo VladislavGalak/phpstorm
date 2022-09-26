@@ -176,6 +176,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="dbb3910a-db08-4650-beb5-a0278e1cb602" name="AIR">
+        <fileTransfer rootFolder="/home/air/back.air-tech.agency/app/www" accessType="SFTP" host="back.air.air-tech.agency" port="22" sshConfigId="2de54f2f-9dac-41b0-bef3-73f7a97ca1c4" sshConfig="air@back.air.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

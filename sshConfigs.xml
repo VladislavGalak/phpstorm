@@ -57,6 +57,7 @@
       <sshConfig authType="OPEN_SSH" host="RK-test" id="d6ac1710-57e2-492d-a6b4-9a2bd2819863" port="22" customName="RK" nameFormat="CUSTOM" username="galak_v">
         <option name="customName" value="RK" />
       </sshConfig>
+      <sshConfig host="back.air.air-tech.agency" id="2de54f2f-9dac-41b0-bef3-73f7a97ca1c4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="air" />
     </configs>
   </component>
 </application>
