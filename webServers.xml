@@ -121,7 +121,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="5bbc26e8-a409-4554-a372-b48719805275" name="dev.ultralinzi">
-        <fileTransfer rootFolder="/srv/www/ultralinzi.catzwolf.ru/htdocs" accessType="SFTP" host="95.213.177.202" port="22" sshConfigId="ffa53b90-8a4f-4312-9b1d-483b998e69b3" sshConfig="test.ultralinzi" keyPair="true">
+        <fileTransfer rootFolder="/srv/www/ultralinzi.catzwolf.ru/htdocs/web" accessType="SFTP" host="ultralinzi-old.catzwolf.ru" port="22" sshConfigId="9f983230-13bd-43b1-9648-8ada59aaa371" sshConfig="dev.ultralinzi">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
