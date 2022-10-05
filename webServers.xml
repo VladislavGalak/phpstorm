@@ -30,7 +30,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="7d903852-abd8-4098-9586-9775c94827fd" name="dev.ipo-company">
-        <fileTransfer rootFolder="/home/ipo/back.ipo.air-dev.agency/app/www" accessType="SFTP" host="back.ipo.air-tech.agency" port="22" sshConfigId="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" sshConfig="dev.ipo.company" keyPair="true">
+        <fileTransfer rootFolder="/home/ipo/back.ipo.air-dev.agency" accessType="SFTP" host="back.ipo.air-tech.agency" port="22" sshConfigId="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" sshConfig="dev.ipo.company" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
