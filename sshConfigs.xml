@@ -58,6 +58,9 @@
         <option name="customName" value="RK" />
       </sshConfig>
       <sshConfig host="back.air.air-tech.agency" id="2de54f2f-9dac-41b0-bef3-73f7a97ca1c4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="air" />
+      <sshConfig host="84.201.188.157" id="0edce11d-d40d-4742-9907-dccf7c087480" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="prod.frd" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="prod.frd" />
+      </sshConfig>
     </configs>
   </component>
 </application>

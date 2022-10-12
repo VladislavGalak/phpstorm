@@ -183,6 +183,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="f7e61faa-9767-4451-aa0f-09e5cf00dda9" name="new2.frd">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/new2.francesco.ru" accessType="SFTP" host="84.201.188.157" port="22" sshConfigId="0edce11d-d40d-4742-9907-dccf7c087480" sshConfig="prod.frd" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
