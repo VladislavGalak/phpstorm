@@ -61,6 +61,7 @@
       <sshConfig host="84.201.188.157" id="0edce11d-d40d-4742-9907-dccf7c087480" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="prod.frd" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="prod.frd" />
       </sshConfig>
+      <sshConfig host="community.exolve.mish.design" id="f9d883f3-a748-49bb-a1d9-10624401a5f4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="mtt" />
     </configs>
   </component>
 </application>
