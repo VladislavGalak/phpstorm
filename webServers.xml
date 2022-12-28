@@ -51,7 +51,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ba2b61f3-61e2-4fab-9332-8662018b769d" name="vsemitut">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="185.154.52.143" port="22" sshConfigId="02b116e5-ca84-44eb-8040-b18cfadc8bc0" sshConfig="bitrix@185.154.52.143:22 password">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/market.vsemitut.ru" accessType="SFTP" host="185.154.52.143" port="22" sshConfigId="02b116e5-ca84-44eb-8040-b18cfadc8bc0" sshConfig="bitrix@185.154.52.143:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
