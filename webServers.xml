@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="ac2d637d-efb1-46c6-bf72-ad291f3ec69e" name="nastile" url="http://176.57.216.15">
+        <fileTransfer rootFolder="/public_html" host="176.57.216.15" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="05a94438-a3fa-4c10-9ab0-0ff18918b016" name="mtt">
         <fileTransfer rootFolder="/home/vgalak/sites/mtt-dev-4.uplab.digital" accessType="SFTP" host="84.23.53.134" port="22" sshConfigId="7394f6c7-1d2c-4a1f-b0a4-96f6e8fa5fa6" sshConfig="mtt" keyPair="true">
           <advancedOptions>
