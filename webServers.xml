@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="534ad6a8-da3b-4d3e-85e3-2cd445185e9d" name="dev.mtt">
+        <fileTransfer rootFolder="/home/mtt/mtt.mtt.air-tech.agency/app/www" accessType="SFTP" host="mtt.mtt.air-tech.agency" port="22" sshConfigId="29a023c4-7835-4b76-bc27-ec5ee007824b" sshConfig="dev.mtt" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="ac2d637d-efb1-46c6-bf72-ad291f3ec69e" name="nastile" url="http://176.57.216.15">
         <fileTransfer rootFolder="/public_html" host="176.57.216.15" port="21">
           <advancedOptions>

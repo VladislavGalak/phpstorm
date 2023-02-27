@@ -62,6 +62,9 @@
         <option name="customName" value="prod.frd" />
       </sshConfig>
       <sshConfig host="community.exolve.mish.design" id="f9d883f3-a748-49bb-a1d9-10624401a5f4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="mtt" />
+      <sshConfig host="mtt.mtt.air-tech.agency" id="29a023c4-7835-4b76-bc27-ec5ee007824b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.mtt" nameFormat="CUSTOM" username="mtt">
+        <option name="customName" value="dev.mtt" />
+      </sshConfig>
     </configs>
   </component>
 </application>
