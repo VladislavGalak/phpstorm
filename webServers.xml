@@ -211,6 +211,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="8084362f-3ec3-4682-8510-66485b0bbc8f" name="zeytzpro">
+        <fileTransfer rootFolder="/home/zeytzpro" accessType="SFTP" host="ssh.zeytzpro.nichost.ru" port="22" sshConfigId="ce4287b1-421b-46f0-96a6-1ce4af210758" sshConfig="zeytzpro@ssh.zeytzpro.nichost.ru:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
