@@ -219,7 +219,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9bc47387-7ac9-4d39-9599-a559bd800a22" name="mtt.prod">
-        <fileTransfer rootFolder="/home/c/cr70143" accessType="SFTP" host="185.114.247.198" port="22" sshConfigId="e0899527-3457-4543-80eb-2d27369a0825" sshConfig="mtt.prod" keyPair="true">
+        <fileTransfer rootFolder="/home/c/cr70143" accessType="SFTP" host="185.114.247.198" port="22" sshConfigId="e0899527-3457-4543-80eb-2d27369a0825" sshConfig="mtt.prod">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

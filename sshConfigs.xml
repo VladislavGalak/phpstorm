@@ -66,7 +66,7 @@
         <option name="customName" value="dev.mtt" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="ssh.zeytzpro.nichost.ru" id="ce4287b1-421b-46f0-96a6-1ce4af210758" port="22" nameFormat="DESCRIPTIVE" username="zeytzpro" />
-      <sshConfig host="185.114.247.198" id="e0899527-3457-4543-80eb-2d27369a0825" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="mtt.prod" nameFormat="CUSTOM" username="cr70143">
+      <sshConfig authType="PASSWORD" host="185.114.247.198" id="e0899527-3457-4543-80eb-2d27369a0825" port="22" customName="mtt.prod" nameFormat="CUSTOM" username="cr70143">
         <option name="customName" value="mtt.prod" />
       </sshConfig>
     </configs>
