@@ -34,12 +34,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="user" value="\Bitrix\Main\Engine\CurrentUser::get()" shortcut="TAB" toReformat="false" toShortenFQNames="true">
+  <template name="user" value="\Bitrix\Main\Engine\CurrentUser::get()" shortcut="TAB" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="request" value="$request = \Bitrix\Main\Context::getCurrent()-&gt;getRequest();" toReformat="false" toShortenFQNames="true">
+  <template name="request" value="$request = \Bitrix\Main\Context::getCurrent()-&gt;getRequest();" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
