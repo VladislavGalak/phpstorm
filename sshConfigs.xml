@@ -62,7 +62,7 @@
         <option name="customName" value="prod.frd" />
       </sshConfig>
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="community.exolve.mish.design" id="f9d883f3-a748-49bb-a1d9-10624401a5f4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="mtt" />
-      <sshConfig host="mtt.mtt.air-tech.agency" id="29a023c4-7835-4b76-bc27-ec5ee007824b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.mtt" nameFormat="CUSTOM" username="mtt">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="mtt.mtt.air-tech.agency" id="29a023c4-7835-4b76-bc27-ec5ee007824b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.mtt" nameFormat="CUSTOM" username="mtt">
         <option name="customName" value="dev.mtt" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="ssh.zeytzpro.nichost.ru" id="ce4287b1-421b-46f0-96a6-1ce4af210758" port="22" nameFormat="DESCRIPTIVE" username="zeytzpro" />
