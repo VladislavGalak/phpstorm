@@ -44,4 +44,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="bxc" value="/** @var array $arParams */&#10;/** @var array $arResult */&#10;/** @global CMain $APPLICATION */&#10;/** @global CUser $USER */&#10;/** @global CDatabase $DB */&#10;/** @var CBitrixComponentTemplate $this */&#10;/** @var string $templateName */&#10;/** @var string $templateFile */&#10;/** @var string $templateFolder */&#10;/** @var string $componentPath */&#10;/** @var CBitrixComponent $component */" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
