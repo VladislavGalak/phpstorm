@@ -225,6 +225,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="4d1f53f7-04ac-4240-91ed-bc0aba1fe7f7" name="concert">
+        <fileTransfer rootFolder="/home/standup/dev.standup.air-tech.agency" accessType="SFTP" host="dev.standup.air-tech.agency" port="22" sshConfigId="25fe5f51-024f-439b-81e5-4e10acec3e9c" sshConfig="concert" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
