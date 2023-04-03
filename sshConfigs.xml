@@ -75,6 +75,9 @@
       <sshConfig host="5.75.154.165" id="ab1160fd-c567-4937-9134-07f563e06093" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="concert.prod" nameFormat="CUSTOM" username="ubuntu">
         <option name="customName" value="concert.prod" />
       </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="dev.yams.air-tech.agency" id="b9213cb7-257f-4a31-a773-2ce3244b0566" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="yams.dev" nameFormat="CUSTOM" username="yams">
+        <option name="customName" value="yams.dev" />
+      </sshConfig>
     </configs>
   </component>
 </application>
