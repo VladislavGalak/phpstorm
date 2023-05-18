@@ -253,6 +253,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="818d6bdc-7819-469b-a088-bb05202f0c57" name="dev.koleso">
+        <fileTransfer rootFolder="/home/koleso/dev.koleso.air-tech.agency" accessType="SFTP" host="dev.koleso.air-tech.agency" port="22" sshConfigId="90df6978-affe-4d4d-8cc2-110818972e05" sshConfig="koleso@dev.koleso.air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
