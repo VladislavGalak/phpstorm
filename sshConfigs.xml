@@ -78,7 +78,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="dev.yams.air-tech.agency" id="b9213cb7-257f-4a31-a773-2ce3244b0566" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="yams.dev" nameFormat="CUSTOM" username="yams">
         <option name="customName" value="yams.dev" />
       </sshConfig>
-      <sshConfig host="dev.koleso.air-tech.agency" id="90df6978-affe-4d4d-8cc2-110818972e05" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="koleso" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.koleso.air-tech.agency" id="90df6978-affe-4d4d-8cc2-110818972e05" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="koleso" />
     </configs>
   </component>
 </application>
