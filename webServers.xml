@@ -74,7 +74,7 @@
       <webServer id="ba2b61f3-61e2-4fab-9332-8662018b769d" name="vsemitut">
         <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="vsemitut.ru" port="22" sshConfigId="02b116e5-ca84-44eb-8040-b18cfadc8bc0" sshConfig="bitrix@vsemitut.ru:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
@@ -249,7 +249,7 @@
       <webServer id="497aefec-919c-4373-9c0e-67dabc73edd1" name="vsemitut.dev">
         <fileTransfer rootFolder="/home/bitrix/ext_www/dev.vsemitut.ru" accessType="SFTP" host="vsemitut.ru" port="22" sshConfigId="02b116e5-ca84-44eb-8040-b18cfadc8bc0" sshConfig="bitrix@vsemitut.ru:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
