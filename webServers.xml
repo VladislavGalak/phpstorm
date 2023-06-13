@@ -260,6 +260,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="4706dc8b-cdeb-44ee-b5f0-2fd76af4e339" name="cm-outlet">
+        <fileTransfer rootFolder="/home/a/aminen0q/cm-outlet.ru" accessType="SFTP" host="cm-outlet.ru" port="22" sshConfigId="976e87a1-ebec-4907-bc88-ac8c71ee813c" sshConfig="cm-outlet">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

@@ -79,6 +79,9 @@
         <option name="customName" value="yams.dev" />
       </sshConfig>
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.koleso.air-tech.agency" id="90df6978-affe-4d4d-8cc2-110818972e05" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="koleso" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="cm-outlet.ru" id="976e87a1-ebec-4907-bc88-ac8c71ee813c" port="22" customName="cm-outlet" nameFormat="CUSTOM" username="aminen0q_outlet">
+        <option name="customName" value="cm-outlet" />
+      </sshConfig>
     </configs>
   </component>
 </application>
