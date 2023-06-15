@@ -267,10 +267,17 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="642a5dce-d721-4748-8ad0-10c2f4a96d6b" name="trips">
+      <webServer id="642a5dce-d721-4748-8ad0-10c2f4a96d6b" name="dev.trips">
         <fileTransfer rootFolder="/home/trips" accessType="SFTP" host="dev.trips.air-tech.agency" port="22" sshConfigId="a34cad18-bd8c-48a0-b6a2-5d3350ff143d" sshConfig="dev.trips" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="481872b8-5e15-4b6d-9462-de3e8ea5e296" name="prod.trips">
+        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="tripshop.ru" port="22" sshConfigId="bfecd11e-4d8d-4b18-b93a-270de3bc5925" sshConfig="trips.prod">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
