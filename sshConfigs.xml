@@ -82,7 +82,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="cm-outlet.ru" id="976e87a1-ebec-4907-bc88-ac8c71ee813c" port="22" customName="cm-outlet" nameFormat="CUSTOM" username="aminen0q_outlet">
         <option name="customName" value="cm-outlet" />
       </sshConfig>
-      <sshConfig host="dev.trips.air-tech.agency" id="a34cad18-bd8c-48a0-b6a2-5d3350ff143d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.trips" nameFormat="CUSTOM" username="trips">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:120}" host="dev.trips.air-tech.agency" id="a34cad18-bd8c-48a0-b6a2-5d3350ff143d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.trips" nameFormat="CUSTOM" username="trips">
         <option name="customName" value="dev.trips" />
       </sshConfig>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="tripshop.ru" id="bfecd11e-4d8d-4b18-b93a-270de3bc5925" port="22" customName="trips.prod" nameFormat="CUSTOM" username="bitrix">

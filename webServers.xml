@@ -270,7 +270,7 @@
       <webServer id="642a5dce-d721-4748-8ad0-10c2f4a96d6b" name="dev.trips">
         <fileTransfer rootFolder="/home/trips/dev.trips.air-tech.agency/app/www/ext_www" accessType="SFTP" host="dev.trips.air-tech.agency" port="22" sshConfigId="a34cad18-bd8c-48a0-b6a2-5d3350ff143d" sshConfig="dev.trips" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="120000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
