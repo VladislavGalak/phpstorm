@@ -88,6 +88,9 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="tripshop.ru" id="bfecd11e-4d8d-4b18-b93a-270de3bc5925" port="22" customName="trips.prod" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="trips.prod" />
       </sshConfig>
+      <sshConfig host="dev2.polymed.air-tech.agency" id="63783a0f-fea4-4dfb-a110-4298997efb20" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.polymed" nameFormat="CUSTOM" username="polymed">
+        <option name="customName" value="dev.polymed" />
+      </sshConfig>
     </configs>
   </component>
 </application>

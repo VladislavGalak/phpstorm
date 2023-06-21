@@ -281,6 +281,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="62390639-2e34-4391-9f2c-ebb45a1f5ddf" name="dev.polymed">
+        <fileTransfer rootFolder="/home/polymed/dev2.polymed.air-dev.agency" accessType="SFTP" host="dev2.polymed.air-tech.agency" port="22" sshConfigId="63783a0f-fea4-4dfb-a110-4298997efb20" sshConfig="dev.polymed" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
