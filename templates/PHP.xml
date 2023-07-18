@@ -54,7 +54,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="element" value="\Bitrix\Iblock\Elements\ElementCatalogTable::query()" toReformat="false" toShortenFQNames="true">
+  <template name="element" value="\Bitrix\Iblock\Elements\ElementCatalogTable::query()" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
