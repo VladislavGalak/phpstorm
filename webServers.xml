@@ -240,7 +240,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="10ea59e3-2509-4f69-98e0-cb6801c127c6" name="yams.dev">
-        <fileTransfer rootFolder="/home/yams/dev3.yams.air-tech.agency" accessType="SFTP" host="dev.yams.air-tech.agency" port="22" sshConfigId="b9213cb7-257f-4a31-a773-2ce3244b0566" sshConfig="yams.dev" keyPair="true">
+        <fileTransfer rootFolder="/home/yams/dev.yams.air-tech.agency" accessType="SFTP" host="dev.yams.air-tech.agency" port="22" sshConfigId="b9213cb7-257f-4a31-a773-2ce3244b0566" sshConfig="yams.dev" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
