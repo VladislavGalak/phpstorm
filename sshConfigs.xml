@@ -91,7 +91,7 @@
       <sshConfig host="dev2.polymed.air-tech.agency" id="63783a0f-fea4-4dfb-a110-4298997efb20" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.polymed" nameFormat="CUSTOM" username="polymed">
         <option name="customName" value="dev.polymed" />
       </sshConfig>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="new2.francesco.ru" id="3a08d960-dd5a-4600-9b01-473cbb05dfb8" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="prod.francesco" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="new2.francesco.ru" id="3a08d960-dd5a-4600-9b01-473cbb05dfb8" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="prod.francesco" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="prod.francesco" />
       </sshConfig>
     </configs>

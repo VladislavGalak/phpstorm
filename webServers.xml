@@ -179,7 +179,7 @@
       <webServer id="13806620-0341-414a-9fae-acf2f1c77988" name="francesca">
         <fileTransfer rootFolder="/home/bitrix/ext_www/dev2.francesco.ru" accessType="SFTP" host="new2.francesco.ru" port="22" sshConfigId="3a08d960-dd5a-4600-9b01-473cbb05dfb8" sshConfig="prod.francesco" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
