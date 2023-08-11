@@ -1,17 +1,17 @@
 <scheme name="Vladushek material" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2020-01-22T12:40:33</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.2.5.0.0</property>
-    <property name="modified">2023-08-11T09:07:00</property>
+    <property name="modified">2023-08-11T15:58:08</property>
     <property name="originalScheme">Vladushek material</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
-  <option name="CONSOLE_FONT_SIZE" value="15" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <colors>
     <option name="CARET_ROW_COLOR" value="32363e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1d1f21" />
