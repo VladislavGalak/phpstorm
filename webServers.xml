@@ -295,6 +295,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="2cb8828f-9bfb-43f6-9e7b-1afa520e6a23" name="denuo.dev">
+        <fileTransfer rootFolder="/home/denuo/back.denuo.air-tech.agency/" accessType="SFTP" host="air-tech.agency" port="22" sshConfigId="b5dac126-b412-4e5c-8dcd-ad65b768fa76" sshConfig="denuo@air-tech.agency:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

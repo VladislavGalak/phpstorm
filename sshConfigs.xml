@@ -97,6 +97,7 @@
       <sshConfig host="185.200.240.244" id="1ead5122-a816-4ab2-a57e-f53a7a84e4b1" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="zetta.dev" nameFormat="CUSTOM" username="zetta">
         <option name="customName" value="zetta.dev" />
       </sshConfig>
+      <sshConfig host="air-tech.agency" id="b5dac126-b412-4e5c-8dcd-ad65b768fa76" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="denuo" />
     </configs>
   </component>
 </application>
