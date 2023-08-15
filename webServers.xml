@@ -291,7 +291,7 @@
       <webServer id="506a1d14-4ea6-424a-81f1-52b5c2b8b3be" name="zetta">
         <fileTransfer rootFolder="/ssd-disk/dev2.zetta.air-dev.agency" accessType="SFTP" host="185.200.240.244" port="22" sshConfigId="1ead5122-a816-4ab2-a57e-f53a7a84e4b1" sshConfig="zetta.dev" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
