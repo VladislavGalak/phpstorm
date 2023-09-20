@@ -102,6 +102,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.francesco.air-tech.agency" id="85c47f6b-ff47-46e8-8e56-6eaf5147d102" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.francesco" nameFormat="CUSTOM" username="francesco">
         <option name="customName" value="dev.francesco" />
       </sshConfig>
+      <sshConfig host="mgts.air-tech.agency" id="54450b1b-7313-448c-9bf8-980910ee04b2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="mgts.dev" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="mgts.dev" />
+      </sshConfig>
     </configs>
   </component>
 </application>

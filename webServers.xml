@@ -316,6 +316,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="449b993e-67e4-45cc-a3ee-e0c961b5c282" name="mgts.dev">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="mgts.air-tech.agency" port="22" sshConfigId="54450b1b-7313-448c-9bf8-980910ee04b2" sshConfig="mgts.dev" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
