@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="4b517680-263f-43b6-8b18-6ad861f03a93" name="wedding" url="http://185.105.110.5">
+        <fileTransfer rootFolder="/www/galakwedding.ru" host="185.105.110.5" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="4e5ed7d1-893c-4a5b-bbb4-98da218c5df4" name="ftp.mtt" url="http://185.114.247.198">
         <fileTransfer rootFolder="/public_html" host="185.114.247.198" port="21">
           <advancedOptions>
