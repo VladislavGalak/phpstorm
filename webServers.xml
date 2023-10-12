@@ -86,7 +86,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ab01a3d6-e146-4ef6-8d5a-f436022bf406" name="ipo-company">
-        <fileTransfer rootFolder="/home/ipo/id.ipo-company.com/" accessType="SFTP" host="62.76.185.178" port="22" sshConfigId="246035ce-b505-4c13-972a-a67ed71f792d" sshConfig="ipo@62.76.185.178:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/ipo/id.ipo-company.com/app/www" accessType="SFTP" host="62.76.185.178" port="22" sshConfigId="246035ce-b505-4c13-972a-a67ed71f792d" sshConfig="ipo@62.76.185.178:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
