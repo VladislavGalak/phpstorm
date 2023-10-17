@@ -128,7 +128,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="4c1e07d9-180f-4738-9abb-40a5c475aa58" name="crm.ipo">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="82.146.46.131" port="22" sshConfigId="d711f7b8-4eb3-4c02-a08c-492dcdd7f7d0" sshConfig="crm.ipo">
+        <fileTransfer rootFolder="/home/bitrix/ext_www/crm.ipo-company.com" accessType="SFTP" host="crm.ipo-company.com" port="22" sshConfigId="d711f7b8-4eb3-4c02-a08c-492dcdd7f7d0" sshConfig="crm.ipo" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
