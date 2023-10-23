@@ -317,7 +317,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="67d927a1-235f-4c86-ae49-30995c568fe3" name="dev.francesco">
-        <fileTransfer rootFolder="/home/francesco/stage.francesco.air-tech.agency" accessType="SFTP" host="dev.francesco.air-tech.agency" port="22" sshConfigId="85c47f6b-ff47-46e8-8e56-6eaf5147d102" sshConfig="dev.francesco" keyPair="true">
+        <fileTransfer rootFolder="/home/francesco/dev.francesco.air-tech.agency" accessType="SFTP" host="dev.francesco.air-tech.agency" port="22" sshConfigId="85c47f6b-ff47-46e8-8e56-6eaf5147d102" sshConfig="dev.francesco" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
