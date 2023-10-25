@@ -330,8 +330,8 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="f4fada05-eeb3-45f4-b612-979e17cef7d8" name="nazi">
-        <fileTransfer accessType="SFTP" host="access.dalee.ru" port="10051" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+      <webServer id="f4fada05-eeb3-45f4-b612-979e17cef7d8" name="nauka">
+        <fileTransfer rootFolder="/home/vgalak/web/np/10-let-nauki" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
