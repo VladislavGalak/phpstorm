@@ -105,7 +105,7 @@
       <sshConfig host="mgts.air-tech.agency" id="54450b1b-7313-448c-9bf8-980910ee04b2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="mgts.dev" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="mgts.dev" />
       </sshConfig>
-      <sshConfig host="access.dalee.ru" id="051830b8-bfc6-4d39-859d-c288a8f6a7b6" keyPath="$USER_HOME$/.ssh/id_rsa" port="10051" customName="access.dalee.ru" nameFormat="CUSTOM" username="mgalak">
+      <sshConfig host="access.dalee.ru" id="051830b8-bfc6-4d39-859d-c288a8f6a7b6" keyPath="$USER_HOME$/.ssh/id_rsa" port="10051" customName="access.dalee.ru" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="access.dalee.ru" />
       </sshConfig>
     </configs>
