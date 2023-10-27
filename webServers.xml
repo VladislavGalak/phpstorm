@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="81d1dc8e-ad78-458a-b9b9-840409867b9d" name="feeder">
+        <fileTransfer rootFolder="/home/vgalak/web/np/feeder" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="4b517680-263f-43b6-8b18-6ad861f03a93" name="wedding" url="http://185.105.110.5">
         <fileTransfer rootFolder="/www/galakwedding.ru" host="185.105.110.5" port="21">
           <advancedOptions>
