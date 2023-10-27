@@ -351,6 +351,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="1f71e31f-3701-46b9-a7c2-6829b8205a96" name="orf">
+        <fileTransfer rootFolder="/home/vgalak/web/np/obyasnyaem" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
