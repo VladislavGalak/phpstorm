@@ -358,6 +358,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="eae5d130-f6d0-4ae1-b459-e9eea2a8a7a9" name="cuv">
+        <fileTransfer rootFolder="/home/vgalak/web/akvapark/cuv" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
