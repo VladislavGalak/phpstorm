@@ -365,6 +365,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="02086dbd-c067-4a6e-a639-8ccfb527d11b" name="secureitcup">
+        <fileTransfer rootFolder="/home/secureitcup/securitycup/app/www" accessType="SFTP" host="secureitcup.smysl.pro" port="22" sshConfigId="7c177802-0ac3-44b9-b2b0-9c421e57878a" sshConfig="secureitcup@secureitcup.smysl.pro:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

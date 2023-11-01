@@ -111,6 +111,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="5a3c020c-cf41-4807-a563-f4e794a6368b" keyPath="$USER_HOME$/.ssh/id_rsa" port="10051" customName="access.dalee.devz51" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="access.dalee.devz51" />
       </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="secureitcup.smysl.pro" id="7c177802-0ac3-44b9-b2b0-9c421e57878a" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="secureitcup" />
     </configs>
   </component>
 </application>
