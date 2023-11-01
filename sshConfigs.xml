@@ -108,6 +108,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="access.dalee.ru" id="051830b8-bfc6-4d39-859d-c288a8f6a7b6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22043" customName="access.dalee.ru" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="access.dalee.ru" />
       </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="5a3c020c-cf41-4807-a563-f4e794a6368b" keyPath="$USER_HOME$/.ssh/id_rsa" port="10051" customName="access.dalee.devz51" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.devz51" />
+      </sshConfig>
     </configs>
   </component>
 </application>
