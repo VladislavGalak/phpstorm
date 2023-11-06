@@ -33,7 +33,7 @@
       <sshConfig host="95.213.177.204" id="5080f876-6fd9-44c6-b01c-069daec7bc9f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="flocktory" nameFormat="CUSTOM" username="debian">
         <option name="customName" value="flocktory" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="ultralinzi-old.catzwolf.ru" id="9f983230-13bd-43b1-9648-8ada59aaa371" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="ultralinzi">
+      <sshConfig host="ultralinzinew.catzwolf.ru" id="9f983230-13bd-43b1-9648-8ada59aaa371" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="ultralinzi-new">
         <option name="customName" value="dev.ultralinzi" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="onlinefitting-ultralinzi.catzwolf.ru" id="5cb9b8c3-9f95-46f2-81e4-8021f697b1eb" port="22" customName="fisting.ultralinzi" nameFormat="CUSTOM" username="onlinefitting_ultralinzi">
@@ -112,6 +112,7 @@
         <option name="customName" value="access.dalee.devz51" />
       </sshConfig>
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="secureitcup.smysl.pro" id="7c177802-0ac3-44b9-b2b0-9c421e57878a" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="secureitcup" />
+      <sshConfig host="okglaza.catzwolf.ru" id="6c77b84c-ac4a-46f9-a1e6-526fadf45959" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="okglaza" />
     </configs>
   </component>
 </application>

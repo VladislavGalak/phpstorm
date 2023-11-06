@@ -156,7 +156,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="5bbc26e8-a409-4554-a372-b48719805275" name="dev.ultralinzi">
-        <fileTransfer rootFolder="/srv/www/ultralinzi.catzwolf.ru/htdocs/web" accessType="SFTP" host="ultralinzi-old.catzwolf.ru" port="22" sshConfigId="9f983230-13bd-43b1-9648-8ada59aaa371" sshConfig="dev.ultralinzi">
+        <fileTransfer rootFolder="/home/ultralinzi-new/ultralinzi-new-back" accessType="SFTP" host="ultralinzinew.catzwolf.ru" port="22" sshConfigId="9f983230-13bd-43b1-9648-8ada59aaa371" sshConfig="dev.ultralinzi" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -369,6 +369,13 @@
         <fileTransfer rootFolder="/home/secureitcup/securitycup/app/www" accessType="SFTP" host="secureitcup.smysl.pro" port="22" sshConfigId="7c177802-0ac3-44b9-b2b0-9c421e57878a" sshConfig="secureitcup@secureitcup.smysl.pro:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a324ea01-14a3-4b70-9b45-78e6c218810f" name="okglaza">
+        <fileTransfer rootFolder="/home/okglaza/okglaza.catzwolf.ru/app/www" accessType="SFTP" host="okglaza.catzwolf.ru" port="22" sshConfigId="6c77b84c-ac4a-46f9-a1e6-526fadf45959" sshConfig="okglaza@okglaza.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
