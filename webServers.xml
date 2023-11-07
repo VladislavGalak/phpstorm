@@ -380,7 +380,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="291ba2f1-3658-4d27-a896-8195a428b3cc" name="bausch-visleya">
-        <fileTransfer rootFolder="/srv/www/bausch-visleya-tmp.catzwolf.ru" accessType="SFTP" host="bausch-visleya-tmp.catzwolf.ru" port="22" sshConfigId="5c309dad-04b0-47a7-8e3d-f9aaa0e5181b" sshConfig="bausch-visleya-tmp@bausch-visleya-tmp.catzwolf.ru:22 key" keyPair="true">
+        <fileTransfer rootFolder="/srv/www/bausch-visleya-tmp.catzwolf.ru/htdocs" accessType="SFTP" host="bausch-visleya-tmp.catzwolf.ru" port="22" sshConfigId="5c309dad-04b0-47a7-8e3d-f9aaa0e5181b" sshConfig="bausch-visleya-tmp@bausch-visleya-tmp.catzwolf.ru:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
