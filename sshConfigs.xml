@@ -113,6 +113,7 @@
       </sshConfig>
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="secureitcup.smysl.pro" id="7c177802-0ac3-44b9-b2b0-9c421e57878a" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="secureitcup" />
       <sshConfig host="okglaza.catzwolf.ru" id="6c77b84c-ac4a-46f9-a1e6-526fadf45959" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="okglaza" />
+      <sshConfig host="bausch-visleya-tmp.catzwolf.ru" id="5c309dad-04b0-47a7-8e3d-f9aaa0e5181b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="bausch-visleya-tmp" />
     </configs>
   </component>
 </application>
