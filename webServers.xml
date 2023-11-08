@@ -345,7 +345,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ec35104e-54f9-4057-bdfe-f5576a6ce2ac" name="nazi">
-        <fileTransfer rootFolder="/home/vgalak/web/np/main" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+        <fileTransfer rootFolder="/home/vgalak/" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
