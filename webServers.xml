@@ -386,6 +386,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="c9fc9ed1-c6e4-423e-a5fe-76f6dcd42d85" name="ultralinzy.by">
+        <fileTransfer rootFolder="/home/ultralinzi-by/ultralinzi-by.catzwolf.ru/app/www" accessType="SFTP" host="ultralinzi-by.catzwolf.ru" port="22" sshConfigId="6a36cafa-d63f-4e24-832a-91c66759d63f" sshConfig="ultralinzi-by@ultralinzi-by.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
