@@ -393,6 +393,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="8f60a244-56ac-4e27-a710-841ebe0fcb74" name="floctory">
+        <fileTransfer rootFolder="/srv/www/flocktory/flocktory-backend" accessType="SFTP" host="flocktory.catzwolf.ru" port="22" sshConfigId="b03b57d1-4e1a-49da-9c77-af22c09345b3" sshConfig="debian@flocktory.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
