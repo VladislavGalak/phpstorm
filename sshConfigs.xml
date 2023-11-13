@@ -116,6 +116,7 @@
       <sshConfig authType="PASSWORD" host="bausch-visleya-tmp.catzwolf.ru" id="5c309dad-04b0-47a7-8e3d-f9aaa0e5181b" port="22" nameFormat="DESCRIPTIVE" username="bausch-visleya-tmp" />
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="ultralinzi-by.catzwolf.ru" id="6a36cafa-d63f-4e24-832a-91c66759d63f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ultralinzi-by" />
       <sshConfig host="flocktory.catzwolf.ru" id="b03b57d1-4e1a-49da-9c77-af22c09345b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="debian" />
+      <sshConfig host="protey-back.catzwolf.ru" id="7b851ec4-d932-4041-946a-a9ead8c588a3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="protey" />
     </configs>
   </component>
 </application>
