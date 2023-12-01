@@ -59,7 +59,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="vue" value="htmlspecialchars(json_encode($END$, JSON_UNESCAPED_UNICODE));" toReformat="false" toShortenFQNames="true">
+  <template name="vue" value="htmlspecialchars(json_encode($END$, JSON_UNESCAPED_UNICODE));" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
