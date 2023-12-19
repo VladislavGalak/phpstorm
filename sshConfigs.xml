@@ -117,7 +117,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="ultralinzi-by.catzwolf.ru" id="6a36cafa-d63f-4e24-832a-91c66759d63f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ultralinzi-by" />
       <sshConfig host="flocktory.catzwolf.ru" id="b03b57d1-4e1a-49da-9c77-af22c09345b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="debian" />
       <sshConfig host="protey-back.catzwolf.ru" id="7b851ec4-d932-4041-946a-a9ead8c588a3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="protey" />
-      <sshConfig host="b24-test.artinvestment.ru" id="e632a1b9-f69c-4bc9-8075-5189a5e524b8" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="b24-test.artinvestment.ru" id="e632a1b9-f69c-4bc9-8075-5189a5e524b8" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
     </configs>
   </component>
 </application>
