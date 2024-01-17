@@ -121,6 +121,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="388b6eb4-158b-449e-9bc2-70150154ef8e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22039" customName="access.dalee.dev19" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="access.dalee.dev19" />
       </sshConfig>
+      <sshConfig host="90.156.205.217" id="54f5c693-d67d-4ce7-815f-1958b8ad158b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="ultraoneday" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="ultraoneday" />
+      </sshConfig>
     </configs>
   </component>
 </application>
