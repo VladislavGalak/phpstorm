@@ -428,6 +428,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="64aae31a-c97d-4ae1-87fa-e00a5602ae79" name="dev.ocivait">
+        <fileTransfer rootFolder="/home/ocuviteforte/ocuviteforte.catzwolf.ru/app/www" accessType="SFTP" host="ocuviteforte.catzwolf.ru" port="22" sshConfigId="bb34ede9-91c5-431e-b892-24707f978cae" sshConfig="ocuviteforte@ocuviteforte.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

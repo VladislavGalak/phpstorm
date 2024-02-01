@@ -124,6 +124,7 @@
       <sshConfig host="90.156.205.217" id="54f5c693-d67d-4ce7-815f-1958b8ad158b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="ultraoneday" nameFormat="CUSTOM" username="root">
         <option name="customName" value="ultraoneday" />
       </sshConfig>
+      <sshConfig host="ocuviteforte.catzwolf.ru" id="bb34ede9-91c5-431e-b892-24707f978cae" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ocuviteforte" />
     </configs>
   </component>
 </application>
