@@ -125,7 +125,7 @@
         <option name="customName" value="ultraoneday" />
       </sshConfig>
       <sshConfig host="ocuviteforte.catzwolf.ru" id="bb34ede9-91c5-431e-b892-24707f978cae" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ocuviteforte" />
-      <sshConfig host="access.dalee.ru" id="f8dea2aa-97de-45d7-b836-e67b5366823c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22023" customName="access.dalee.ru03" nameFormat="CUSTOM" username="vgalak">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="f8dea2aa-97de-45d7-b836-e67b5366823c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22023" customName="access.dalee.ru03" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="access.dalee.ru03" />
       </sshConfig>
     </configs>
