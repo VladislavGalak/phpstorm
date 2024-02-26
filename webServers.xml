@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="2b934968-d482-4545-889e-83076d44f8ad" name="marathone">
+        <fileTransfer rootFolder="/home/vgalak/web/sbermarketing/green-marathon" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="9ed7a404-8cdc-41cf-a975-543756e0d7d0" name="pony.lk">
         <fileTransfer rootFolder="/home/vgalak/web/ponyexpress/lk" accessType="SFTP" host="access.dalee.ru" port="22039" sshConfigId="388b6eb4-158b-449e-9bc2-70150154ef8e" sshConfig="access.dalee.dev19" keyPair="true">
           <advancedOptions>
