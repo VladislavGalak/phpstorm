@@ -13,14 +13,14 @@
       <mapping pattern="export(2021-04-02)__22:20php" type="AUTO_DETECTED" />
       <mapping pattern="crontab" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-05)__05:23php" type="AUTO_DETECTED" />
-      <mapping pattern="index" type="AUTO_DETECTED" />
-      <mapping pattern="config" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-02)__22:25php" type="AUTO_DETECTED" />
+      <mapping pattern="config" type="AUTO_DETECTED" />
+      <mapping pattern="index" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-01)__17:31php" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-01)__15:47php" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-03)__01:29php" type="AUTO_DETECTED" />
-      <removed_mapping ext="csv" type="CSV file" />
-      <mapping ext="csv" type="CSV/TSV" />
+      <mapping ext="csv" type="CSV file" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping ext="pug" type="PHP" />
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern=".description" type="PLAIN_TEXT" />
