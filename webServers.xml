@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="5e69d75d-4bfc-4e28-a3ff-9660c0b000df" name="okuforte">
+        <fileTransfer rootFolder="/home/u537781/ocuviteforte.ru/www" accessType="SFTP" host="u537781.ssh.masterhost.ru" port="22" sshConfigId="4b8895c3-2945-44cf-a76f-7f4b8cb4413b" sshConfig="okuforte.new">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="2b934968-d482-4545-889e-83076d44f8ad" name="marathone">
         <fileTransfer rootFolder="/home/vgalak/web/sbermarketing/green-marathon" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
           <advancedOptions>
