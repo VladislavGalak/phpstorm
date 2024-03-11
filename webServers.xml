@@ -449,6 +449,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="764f481c-f38a-4baf-b0dc-4a9f62d3b7c5" name="museum">
+        <fileTransfer rootFolder="/home/vgalak/web/cbr/museum" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
