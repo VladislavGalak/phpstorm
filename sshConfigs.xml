@@ -131,7 +131,7 @@
       <sshConfig authType="PASSWORD" host="u537781.ssh.masterhost.ru" id="4b8895c3-2945-44cf-a76f-7f4b8cb4413b" port="22" customName="okuforte.new" nameFormat="CUSTOM" username="u537781">
         <option name="customName" value="okuforte.new" />
       </sshConfig>
-      <sshConfig host="u481031.ssh.masterhost.ru" id="19b4dd88-298f-479c-880d-e6487f3ca4f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelac" nameFormat="CUSTOM" username="u481031">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="u481031.ssh.masterhost.ru" id="19b4dd88-298f-479c-880d-e6487f3ca4f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelac" nameFormat="CUSTOM" username="u481031">
         <option name="customName" value="artelac" />
       </sshConfig>
     </configs>

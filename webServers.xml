@@ -456,6 +456,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="833e0c7e-d4cf-4bcc-9bfd-9ec2ffa9a713" name="artelac">
+        <fileTransfer rootFolder="/home/u481031" accessType="SFTP" host="u481031.ssh.masterhost.ru" port="22" sshConfigId="19b4dd88-298f-479c-880d-e6487f3ca4f2" sshConfig="artelac" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
