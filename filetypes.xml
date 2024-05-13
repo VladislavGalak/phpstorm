@@ -6,6 +6,7 @@
       <mapping pattern="export(2021-04-01)__23:44php" type="AUTO_DETECTED" />
       <mapping pattern="jedi" type="AUTO_DETECTED" />
       <mapping pattern="Makefile" type="AUTO_DETECTED" />
+      <mapping pattern="Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="ORIG_HEAD" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-01)__14:55php" type="AUTO_DETECTED" />
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
