@@ -35,6 +35,7 @@
       <mapping pattern=".htaccess.save" type="PLAIN_TEXT" />
       <mapping pattern=".access" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="mmdb" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="log_1619610423" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
