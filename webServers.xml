@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="7defc2d0-1b63-4ee9-ac9f-c317d2ed40a4" name="tourism">
+        <fileTransfer rootFolder="/home/vgalak/web/np/tourism" accessType="SFTP" host="access.dalee.ru" port="22023" sshConfigId="f8dea2aa-97de-45d7-b836-e67b5366823c" sshConfig="access.dalee.ru03" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="5e69d75d-4bfc-4e28-a3ff-9660c0b000df" name="okuforte">
         <fileTransfer rootFolder="/home/u537781/ocuviteforte.ru/www" accessType="SFTP" host="u537781.ssh.masterhost.ru" port="22" sshConfigId="4b8895c3-2945-44cf-a76f-7f4b8cb4413b" sshConfig="okuforte.new">
           <advancedOptions>
