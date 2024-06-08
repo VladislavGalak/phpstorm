@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="FETCH_HEAD" type="AUTO_DETECTED" />
+      <mapping pattern="AuthorService" type="AUTO_DETECTED" />
       <mapping pattern="COMMIT_EDITMSG" type="AUTO_DETECTED" />
       <mapping pattern="export(2021-04-01)__23:44php" type="AUTO_DETECTED" />
       <mapping pattern="jedi" type="AUTO_DETECTED" />
