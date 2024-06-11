@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="b3a11bd4-5878-456d-8e0f-05024bd75280" name="762">
+        <fileTransfer rootFolder="/home/vgalak/web/762club/main" accessType="SFTP" host="access.dalee.ru" port="10051" sshConfigId="5a3c020c-cf41-4807-a563-f4e794a6368b" sshConfig="access.dalee.devz51" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="6b01021c-2d85-4640-9828-e60656e32143" name="fincult">
         <fileTransfer rootFolder="/home/vgalak/web/cbr/fincult" accessType="SFTP" host="access.dalee.ru" port="22043" sshConfigId="051830b8-bfc6-4d39-859d-c288a8f6a7b6" sshConfig="access.dalee.ru" keyPair="true">
           <advancedOptions>
