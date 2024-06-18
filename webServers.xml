@@ -50,48 +50,6 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="4b517680-263f-43b6-8b18-6ad861f03a93" name="wedding" url="http://185.105.110.5">
-        <fileTransfer rootFolder="/www/galakwedding.ru" host="185.105.110.5" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="4e5ed7d1-893c-4a5b-bbb4-98da218c5df4" name="ftp.mtt" url="http://185.114.247.198">
-        <fileTransfer rootFolder="/public_html" host="185.114.247.198" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="534ad6a8-da3b-4d3e-85e3-2cd445185e9d" name="dev.mtt">
-        <fileTransfer rootFolder="/home/mtt/mtt.mtt.air-tech.agency/app/www" accessType="SFTP" host="mtt.mtt.air-tech.agency" port="22" sshConfigId="29a023c4-7835-4b76-bc27-ec5ee007824b" sshConfig="dev.mtt" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="ac2d637d-efb1-46c6-bf72-ad291f3ec69e" name="nastile" url="http://176.57.216.15">
-        <fileTransfer rootFolder="/public_html" host="176.57.216.15" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="05a94438-a3fa-4c10-9ab0-0ff18918b016" name="mtt">
-        <fileTransfer rootFolder="/home/vgalak/sites/mtt-dev-4.uplab.digital" accessType="SFTP" host="84.23.53.134" port="22" sshConfigId="7394f6c7-1d2c-4a1f-b0a4-96f6e8fa5fa6" sshConfig="mtt" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="aa7a04b4-e862-4f3a-81f6-f6586684ee2c" name="old.osetr">
-        <fileTransfer rootFolder="/home/vgalak/sites/osetr-preprod.uplab.digital" accessType="SFTP" host="osetr-dev-1.uplab.digital" port="22" sshConfigId="8d802473-30eb-4707-88e8-2a10e0fa6bd9" sshConfig="dev.osetr" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="825a616d-3b26-4994-8b0f-94692a173c34" name="dev.glazarf">
         <fileTransfer rootFolder="/srv/www/tvoiglaza.catzwolf.ru" accessType="SFTP" host="tvoiglaza.catzwolf.ru" port="22" sshConfigId="96f2d418-0384-4043-8962-4887d4fe2404" sshConfig="dev.glaza">
           <advancedOptions>
@@ -101,27 +59,6 @@
       </webServer>
       <webServer id="28220304-25bb-4f0d-9fe8-b3398c3c6b32" name="forms.ultralinzi">
         <fileTransfer rootFolder="/srv/www/feedback-ultralinzi-backend" accessType="SFTP" host="95.213.177.204" port="22" sshConfigId="30fb9c3b-168d-459d-a913-ffc79dbbbfe3" sshConfig="forms.ultralinzi" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="7d903852-abd8-4098-9586-9775c94827fd" name="dev.ipo-company">
-        <fileTransfer rootFolder="/home/ipo/back2.ipo.air-dev.agency/" accessType="SFTP" host="back.ipo.air-tech.agency" port="22" sshConfigId="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" sshConfig="dev.ipo.company" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="e3bc22c0-828f-4fcd-88d8-9ae75941090f" name="dobrostroj">
-        <fileTransfer rootFolder="/home/dobrostroj/dev.dobrostroj.air-dev.agency" accessType="SFTP" host="dev.dobrostroj.air-tech.agency" port="22" sshConfigId="eaa3b674-2cd8-46d9-9056-8d96028b8067" sshConfig="dobrostroj@dev.dobrostroj.air-tech.agency:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="00d714c2-39e4-4673-9b16-47bcfb065bec" name="gofromir">
-        <fileTransfer rootFolder="/home/gofromir/dev.gofromir.air-dev.agency/app/www" accessType="SFTP" host="dev.gofromir.air-tech.agency" port="22" sshConfigId="930ee37d-7ba0-4c6a-a7af-5abc0aa7b2af" sshConfig="gofromir@dev.gofromir.air-tech.agency:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -169,20 +106,6 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="5459e9f4-6478-4546-8710-d88337672156" name="pharmgeocom">
-        <fileTransfer rootFolder="/home/ubuntu/www/stage/app/www" accessType="SFTP" host="test.pharmgeocom.ru" port="22" sshConfigId="89b35a9f-4dea-4787-82df-afe7e01fd60e" sshConfig="ubuntu@test.pharmgeocom.ru:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="4c1e07d9-180f-4738-9abb-40a5c475aa58" name="crm.ipo">
-        <fileTransfer rootFolder="/home/bitrix/ext_www/crm.ipo-company.com" accessType="SFTP" host="crm.ipo-company.com" port="22" sshConfigId="d711f7b8-4eb3-4c02-a08c-492dcdd7f7d0" sshConfig="crm.ipo" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="69523e47-531b-4c29-bd51-a2d00d449845" name="old.vsemitut">
         <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="185.154.52.207" port="22" sshConfigId="c120f656-cb25-4eee-bf83-f2210912722c" sshConfig="old.vsemitut">
           <advancedOptions>
@@ -204,92 +127,8 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="ac0ed393-3064-4257-a01a-86be3d4cc917" name="fisting.ultralinzi">
-        <fileTransfer rootFolder="/srv/www/onlinefitting_ultralinzi.catzwolf.ru/htdocs" accessType="SFTP" host="onlinefitting-ultralinzi.catzwolf.ru" port="22" sshConfigId="5cb9b8c3-9f95-46f2-81e4-8021f697b1eb" sshConfig="fisting.ultralinzi">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="14c1f14e-317c-4ea5-af96-f74735a94c79" name="vizelya">
         <fileTransfer rootFolder="/srv/www/bausch-visleya-tmp.catzwolf.ru" accessType="SFTP" host="bausch-visleya-tmp.catzwolf.ru" port="22" sshConfigId="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" sshConfig="viselya">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="6c767c5f-def0-4dc3-be0b-ec70de8aed57" name="dev.osetr">
-        <fileTransfer rootFolder="/home/vgalak/sites/osetr-dev-1.uplab.digital" accessType="SFTP" host="osetr-dev-1.uplab.digital" port="22" sshConfigId="8d802473-30eb-4707-88e8-2a10e0fa6bd9" sshConfig="dev.osetr" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="c6b1deeb-a67a-4c44-b441-7f10d7f92b2e" name="pulkovo">
-        <fileTransfer rootFolder="/home/pulkovo/dev.pulkovo.air-dev.agency" accessType="SFTP" host="dev.pulkovo.air-tech.agency" port="22" sshConfigId="e7543d70-1976-4649-8349-bb3308bcfd9d" sshConfig="pulkovo@dev.pulkovo.air-tech.agency:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="13806620-0341-414a-9fae-acf2f1c77988" name="francesca">
-        <fileTransfer rootFolder="/home/bitrix/ext_www/dev2.francesco.ru" accessType="SFTP" host="new2.francesco.ru" port="22" sshConfigId="3a08d960-dd5a-4600-9b01-473cbb05dfb8" sshConfig="prod.francesco" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="1e7a5ca4-4616-42f9-8ca7-9a130f761bb1" name="dev.rusklimat">
-        <fileTransfer rootFolder="/home/rusklimat/dev.rusklimat.air-dev.agency" accessType="SFTP" host="dev.rusklimat.air-tech.agency" port="22" sshConfigId="73cf1aef-3197-41be-891c-9772f08883aa" sshConfig="rusklimat@dev.rusklimat.air-tech.agency:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="6b4b2960-c85e-4fad-a232-21629003b929" name="RK">
-        <fileTransfer rootFolder="/home/bitrix/www/" accessType="SFTP" host="RK-test" port="22" sshConfigId="d6ac1710-57e2-492d-a6b4-9a2bd2819863" sshConfig="RK" authAgent="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="dbb3910a-db08-4650-beb5-a0278e1cb602" name="AIR">
-        <fileTransfer rootFolder="/home/air/back.air-tech.agency/app/www" accessType="SFTP" host="back.air.air-tech.agency" port="22" sshConfigId="2de54f2f-9dac-41b0-bef3-73f7a97ca1c4" sshConfig="air@back.air.air-tech.agency:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="f7e61faa-9767-4451-aa0f-09e5cf00dda9" name="new2.frd">
-        <fileTransfer rootFolder="/home/bitrix/ext_www/new2.francesco.ru" accessType="SFTP" host="84.201.188.157" port="22" sshConfigId="0edce11d-d40d-4742-9907-dccf7c087480" sshConfig="prod.frd" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="8084362f-3ec3-4682-8510-66485b0bbc8f" name="zeytzpro">
-        <fileTransfer rootFolder="/home/zeytzpro" accessType="SFTP" host="ssh.zeytzpro.nichost.ru" port="22" sshConfigId="ce4287b1-421b-46f0-96a6-1ce4af210758" sshConfig="zeytzpro@ssh.zeytzpro.nichost.ru:22 password">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="9bc47387-7ac9-4d39-9599-a559bd800a22" name="mtt.prod">
-        <fileTransfer rootFolder="/home/c/cr70143" accessType="SFTP" host="185.114.247.198" port="22" sshConfigId="e0899527-3457-4543-80eb-2d27369a0825" sshConfig="mtt.prod">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="4d1f53f7-04ac-4240-91ed-bc0aba1fe7f7" name="concert.dev">
-        <fileTransfer rootFolder="/home/standup/dev.standup.air-tech.agency/" accessType="SFTP" host="dev.standup.air-tech.agency" port="22" sshConfigId="25fe5f51-024f-439b-81e5-4e10acec3e9c" sshConfig="dev.concert" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="f7a2464c-70a3-469d-b8fa-5b0a3c00aabc" name="concert.prod">
-        <fileTransfer rootFolder="/srv/concertplace.tv" accessType="SFTP" host="5.75.154.165" port="22" sshConfigId="ab1160fd-c567-4937-9134-07f563e06093" sshConfig="concert.prod" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -309,31 +148,10 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="818d6bdc-7819-469b-a088-bb05202f0c57" name="dev.koleso">
-        <fileTransfer rootFolder="/home/koleso/dev.koleso.air-tech.agency" accessType="SFTP" host="dev.koleso.air-tech.agency" port="22" sshConfigId="90df6978-affe-4d4d-8cc2-110818972e05" sshConfig="koleso@dev.koleso.air-tech.agency:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="4706dc8b-cdeb-44ee-b5f0-2fd76af4e339" name="cm-outlet">
-        <fileTransfer rootFolder="/home/a/aminen0q/cm-outlet.ru" accessType="SFTP" host="cm-outlet.ru" port="22" sshConfigId="976e87a1-ebec-4907-bc88-ac8c71ee813c" sshConfig="cm-outlet">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="642a5dce-d721-4748-8ad0-10c2f4a96d6b" name="dev.trips">
         <fileTransfer rootFolder="/home/trips/dev2.trips.air-tech.agency/app/www/ext_www" accessType="SFTP" host="dev.trips.air-tech.agency" port="22" sshConfigId="a34cad18-bd8c-48a0-b6a2-5d3350ff143d" sshConfig="dev.trips" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="120000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="481872b8-5e15-4b6d-9462-de3e8ea5e296" name="prod.trips">
-        <fileTransfer rootFolder="/home/bitrix" accessType="SFTP" host="tripshop.ru" port="22" sshConfigId="bfecd11e-4d8d-4b18-b93a-270de3bc5925" sshConfig="trips.prod">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
@@ -344,38 +162,10 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="506a1d14-4ea6-424a-81f1-52b5c2b8b3be" name="zetta">
-        <fileTransfer rootFolder="/ssd-disk/dev2.zetta.air-dev.agency" accessType="SFTP" host="185.200.240.244" port="22" sshConfigId="1ead5122-a816-4ab2-a57e-f53a7a84e4b1" sshConfig="zetta.dev" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="2cb8828f-9bfb-43f6-9e7b-1afa520e6a23" name="denuo.dev">
-        <fileTransfer rootFolder="/home/denuo/back.denuo.air-tech.agency/" accessType="SFTP" host="air-tech.agency" port="22" sshConfigId="b5dac126-b412-4e5c-8dcd-ad65b768fa76" sshConfig="denuo@air-tech.agency:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="e2a317e0-8b32-4157-863f-a10076607927" name="trips.prod">
-        <fileTransfer rootFolder="/home/bitrix/ext_www" accessType="SFTP" host="89.108.109.144" port="22" sshConfigId="765651a2-0434-49ef-a4c3-ca7e668cd192" sshConfig="bitrix@89.108.109.144:22 key" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="67d927a1-235f-4c86-ae49-30995c568fe3" name="dev.francesco">
         <fileTransfer rootFolder="/home/francesco/dev.francesco.air-tech.agency" accessType="SFTP" host="dev.francesco.air-tech.agency" port="22" sshConfigId="85c47f6b-ff47-46e8-8e56-6eaf5147d102" sshConfig="dev.francesco" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="449b993e-67e4-45cc-a3ee-e0c961b5c282" name="mgts.dev">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="mgts.air-tech.agency" port="22" sshConfigId="54450b1b-7313-448c-9bf8-980910ee04b2" sshConfig="mgts.dev" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
