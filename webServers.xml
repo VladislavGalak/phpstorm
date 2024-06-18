@@ -275,7 +275,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="0f02cf75-384b-4456-b989-68eebb06e662" name="panthenol">
-        <fileTransfer rootFolder="/home/panthenol" accessType="SFTP" host="bausch-panthenol.catzwolf.ru" port="22" sshConfigId="645c664b-e268-47dc-9e48-95dbb8702414" sshConfig="panthenol@bausch-panthenol.catzwolf.ru:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/panthenol/bausch-panthenol.catzwolf.ru" accessType="SFTP" host="bausch-panthenol.catzwolf.ru" port="22" sshConfigId="645c664b-e268-47dc-9e48-95dbb8702414" sshConfig="panthenol@bausch-panthenol.catzwolf.ru:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

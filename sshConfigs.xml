@@ -134,6 +134,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="u481031.ssh.masterhost.ru" id="19b4dd88-298f-479c-880d-e6487f3ca4f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelac" nameFormat="CUSTOM" username="u481031">
         <option name="customName" value="artelac" />
       </sshConfig>
+      <sshConfig host="bausch-panthenol.catzwolf.ru" id="645c664b-e268-47dc-9e48-95dbb8702414" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="panthenol" />
     </configs>
   </component>
 </application>
