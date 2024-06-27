@@ -281,6 +281,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="691add25-d1e6-4825-a78a-15919b1a8e78" name="empathia-village">
+        <fileTransfer rootFolder="/home/t/techgtdr/empathia_village/public_html" accessType="SFTP" host="techgtdr.beget.tech" port="22" sshConfigId="ef70e037-7ed7-435e-b020-c6ba38c97b2f" sshConfig="techgtdr@techgtdr.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

@@ -135,6 +135,7 @@
         <option name="customName" value="artelac" />
       </sshConfig>
       <sshConfig host="bausch-panthenol.catzwolf.ru" id="645c664b-e268-47dc-9e48-95dbb8702414" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="panthenol" />
+      <sshConfig authType="PASSWORD" host="techgtdr.beget.tech" id="ef70e037-7ed7-435e-b020-c6ba38c97b2f" port="22" nameFormat="DESCRIPTIVE" username="techgtdr" />
     </configs>
   </component>
 </application>
