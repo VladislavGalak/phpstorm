@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="5d547ee6-ce55-4955-a857-1e176e68953c" name="korneregel.dev">
+        <fileTransfer rootFolder="/home/korneregel/bausch-korneregel.catzwolf.ru" accessType="SFTP" host="bausch-korneregel.catzwolf.ru" port="22" sshConfigId="b74ba330-da5c-406a-b1f1-176f4b42329a" sshConfig="korneregel@bausch-korneregel.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="b3a11bd4-5878-456d-8e0f-05024bd75280" name="762">
         <fileTransfer rootFolder="/home/vgalak/web/762club/main" accessType="SFTP" host="access.dalee.ru" port="10051" sshConfigId="5a3c020c-cf41-4807-a563-f4e794a6368b" sshConfig="access.dalee.devz51" keyPair="true">
           <advancedOptions>
