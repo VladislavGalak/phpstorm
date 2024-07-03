@@ -295,6 +295,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="d5abb776-62eb-4ea2-bc73-70b74a5a4e43" name="pushkin">
+        <fileTransfer rootFolder="/home/a/agttech/stranapoeta.ru/public_html" accessType="SFTP" host="agttech.beget.tech" port="22" sshConfigId="9c2cabb0-a230-42f1-9009-a5d8291f01cc" sshConfig="agttech@agttech.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
