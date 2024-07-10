@@ -256,7 +256,7 @@
       <webServer id="e1218db6-255d-4abb-8aa1-47dad1adc5ea" name="ultraoneday">
         <fileTransfer rootFolder="/var/www/backend" accessType="SFTP" host="90.156.205.217" port="22" sshConfigId="54f5c693-d67d-4ce7-815f-1958b8ad158b" sshConfig="ultraoneday" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
