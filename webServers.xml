@@ -302,6 +302,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="299635bf-cb83-4b82-b5e2-afa387c49221" name="artin.prod">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="188.225.82.87" port="22" sshConfigId="e5534adf-02de-4d39-92c1-0dd9d4c86801" sshConfig="root@188.225.82.87:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
