@@ -312,7 +312,7 @@
       <webServer id="935629bb-d884-4228-8368-5787b944f473" name="gazon" url="http://etogazon.techgtdr.beget.tech">
         <fileTransfer host="etogazon.techgtdr.beget.tech" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
