@@ -240,7 +240,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="efd5d2f7-cb4c-42bd-9baa-cef21f9675f7" name="protey">
-        <fileTransfer rootFolder="/home/protey/protey-back.catzwolf.ru/app/www" accessType="SFTP" host="protey-back.catzwolf.ru" port="22" sshConfigId="7b851ec4-d932-4041-946a-a9ead8c588a3" sshConfig="protey@protey-back.catzwolf.ru:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/protey/protey-stage-backend.catzwolf.ru/app/www" accessType="SFTP" host="protey-back.catzwolf.ru" port="22" sshConfigId="7b851ec4-d932-4041-946a-a9ead8c588a3" sshConfig="protey@protey-back.catzwolf.ru:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
