@@ -42,6 +42,8 @@
       <mapping ext="mmdb" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="log_1619610423" type="PLAIN_TEXT" />
+      <mapping ext="2" type="PLAIN_TEXT" />
+      <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="log_1619614504" type="PLAIN_TEXT" />
