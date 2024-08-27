@@ -139,7 +139,7 @@
       <sshConfig host="bausch-korneregel.catzwolf.ru" id="b74ba330-da5c-406a-b1f1-176f4b42329a" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="korneregel" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="agttech.beget.tech" id="9c2cabb0-a230-42f1-9009-a5d8291f01cc" port="22" nameFormat="DESCRIPTIVE" username="agttech" />
       <sshConfig authType="PASSWORD" host="188.225.82.87" id="e5534adf-02de-4d39-92c1-0dd9d4c86801" port="22" nameFormat="DESCRIPTIVE" username="root" />
-      <sshConfig host="77.222.38.161" id="f3628f4f-0534-406d-ac5f-40c34e10de1f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="lms" nameFormat="CUSTOM" username="bitrix">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="77.222.38.161" id="f3628f4f-0534-406d-ac5f-40c34e10de1f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="lms" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="lms" />
       </sshConfig>
     </configs>
