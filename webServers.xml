@@ -316,6 +316,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="70d589ac-7170-4d8e-926b-753d9f6bf48f" name="lms">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="77.222.38.161" port="22" sshConfigId="f3628f4f-0534-406d-ac5f-40c34e10de1f" sshConfig="lms" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
