@@ -17,7 +17,7 @@
       <sshConfig host="95.213.177.204" id="0bf151ca-507e-4f4d-8c45-8f82931a1e77" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="holisal" nameFormat="CUSTOM" username="debian">
         <option name="customName" value="holisal" />
       </sshConfig>
-      <sshConfig host="bausch-expert.catzwolf.ru" id="35f2c8cb-1c5c-4948-999b-d6c4115fd822" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="bausch" nameFormat="CUSTOM" username="bausch">
+      <sshConfig host="bausch-expert.catzwolf.ru" id="35f2c8cb-1c5c-4948-999b-d6c4115fd822" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="bausch" nameFormat="CUSTOM" username="ubuntu">
         <option name="customName" value="bausch" />
       </sshConfig>
       <sshConfig host="test.pharmgeocom.ru" id="89b35a9f-4dea-4787-82df-afe7e01fd60e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
