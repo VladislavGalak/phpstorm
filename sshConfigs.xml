@@ -142,6 +142,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="77.222.38.161" id="f3628f4f-0534-406d-ac5f-40c34e10de1f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="lms" nameFormat="CUSTOM" username="bitrix">
         <option name="customName" value="lms" />
       </sshConfig>
+      <sshConfig host="access.dalee.ru" id="7512baee-2aab-467d-9894-76cb1d3db9de" keyPath="$USER_HOME$/.ssh/id_rsa" port="22034" customName="access.dalee.dev14" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.dev14" />
+      </sshConfig>
     </configs>
   </component>
 </application>
