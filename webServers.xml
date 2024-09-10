@@ -323,6 +323,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="47251e1a-2e4d-4f0a-bc5c-0bab5ee82750" name="asi">
+        <fileTransfer rootFolder="/home/vgalak/web/asi/main" accessType="SFTP" host="access.dalee.ru" port="22034" sshConfigId="7512baee-2aab-467d-9894-76cb1d3db9de" sshConfig="access.dalee.dev14" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
