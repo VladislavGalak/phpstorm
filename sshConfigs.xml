@@ -145,6 +145,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="access.dalee.ru" id="7512baee-2aab-467d-9894-76cb1d3db9de" keyPath="$USER_HOME$/.ssh/id_rsa" port="22034" customName="access.dalee.dev14" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="access.dalee.dev14" />
       </sshConfig>
+      <sshConfig host="u538244.ssh.masterhost.ru" id="cca0032c-6bf1-4a4c-9413-3de28f862fc9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="u538244" />
     </configs>
   </component>
 </application>

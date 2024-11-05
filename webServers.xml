@@ -330,6 +330,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="7db92a3e-66cc-4c44-b99a-147d16286e76" name="okumax">
+        <fileTransfer rootFolder="/home/u538244/ocuvitemax.ru/www" accessType="SFTP" host="u538244.ssh.masterhost.ru" port="22" sshConfigId="cca0032c-6bf1-4a4c-9413-3de28f862fc9" sshConfig="u538244@u538244.ssh.masterhost.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
