@@ -1,0 +1,151 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="dev.dobrostroj.air-tech.agency" id="eaa3b674-2cd8-46d9-9056-8d96028b8067" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="dobrostroj" />
+      <sshConfig host="dev.gofromir.air-tech.agency" id="930ee37d-7ba0-4c6a-a7af-5abc0aa7b2af" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="gofromir" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="vsemitut.ru" id="02b116e5-ca84-44eb-8040-b18cfadc8bc0" port="22" nameFormat="DESCRIPTIVE" username="bitrix" />
+      <sshConfig host="62.76.185.178" id="246035ce-b505-4c13-972a-a67ed71f792d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ipo" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.selgros.air-tech.agency" id="9f39d07e-c3b6-40cb-84cd-261c347b2f50" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.selgros" nameFormat="CUSTOM" username="selgros">
+        <option name="customName" value="dev.selgros" />
+      </sshConfig>
+      <sshConfig host="95.213.177.202" id="ffa53b90-8a4f-4312-9b1d-483b998e69b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="test.ultralinzi" nameFormat="CUSTOM" username="ultralinzi">
+        <option name="customName" value="test.ultralinzi" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="back.ipo.air-tech.agency" id="a3bfc6fe-f014-44b1-9b34-c5ab15d66932" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ipo.company" nameFormat="CUSTOM" username="ipo">
+        <option name="customName" value="dev.ipo.company" />
+      </sshConfig>
+      <sshConfig host="95.213.177.204" id="0bf151ca-507e-4f4d-8c45-8f82931a1e77" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="holisal" nameFormat="CUSTOM" username="debian">
+        <option name="customName" value="holisal" />
+      </sshConfig>
+      <sshConfig host="bausch-expert.catzwolf.ru" id="35f2c8cb-1c5c-4948-999b-d6c4115fd822" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="bausch" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="bausch" />
+      </sshConfig>
+      <sshConfig host="test.pharmgeocom.ru" id="89b35a9f-4dea-4787-82df-afe7e01fd60e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
+      <sshConfig host="95.213.177.204" id="30fb9c3b-168d-459d-a913-ffc79dbbbfe3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="forms.ultralinzi" nameFormat="CUSTOM" username="debian">
+        <option name="customName" value="forms.ultralinzi" />
+      </sshConfig>
+      <sshConfig host="crm.ipo-company.com" id="d711f7b8-4eb3-4c02-a08c-492dcdd7f7d0" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="crm.ipo" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="crm.ipo" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="185.154.52.207" id="c120f656-cb25-4eee-bf83-f2210912722c" port="22" customName="old.vsemitut" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="old.vsemitut" />
+      </sshConfig>
+      <sshConfig host="95.213.177.204" id="5080f876-6fd9-44c6-b01c-069daec7bc9f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="flocktory" nameFormat="CUSTOM" username="debian">
+        <option name="customName" value="flocktory" />
+      </sshConfig>
+      <sshConfig host="ultralinzinew.catzwolf.ru" id="9f983230-13bd-43b1-9648-8ada59aaa371" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.ultralinzi" nameFormat="CUSTOM" username="ultralinzi-new">
+        <option name="customName" value="dev.ultralinzi" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="onlinefitting-ultralinzi.catzwolf.ru" id="5cb9b8c3-9f95-46f2-81e4-8021f697b1eb" port="22" customName="fisting.ultralinzi" nameFormat="CUSTOM" username="onlinefitting_ultralinzi">
+        <option name="customName" value="fisting.ultralinzi" />
+      </sshConfig>
+      <sshConfig host="u538285.ssh.masterhost.ru" id="8be3dccd-00e4-4d2c-8106-e1a7a5122a9c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="viselya" nameFormat="CUSTOM" username="u538285">
+        <option name="customName" value="viselya" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="tvoiglaza.catzwolf.ru" id="96f2d418-0384-4043-8962-4887d4fe2404" port="22" customName="dev.glaza" nameFormat="CUSTOM" username="tvoiglaza">
+        <option name="customName" value="dev.glaza" />
+      </sshConfig>
+      <sshConfig host="osetr-dev-1.uplab.digital" id="8d802473-30eb-4707-88e8-2a10e0fa6bd9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.osetr" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="dev.osetr" />
+      </sshConfig>
+      <sshConfig host="84.23.53.134" id="7394f6c7-1d2c-4a1f-b0a4-96f6e8fa5fa6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="mtt" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="mtt" />
+      </sshConfig>
+      <sshConfig host="dev.pulkovo.air-tech.agency" id="e7543d70-1976-4649-8349-bb3308bcfd9d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="pulkovo" />
+      <sshConfig host="dev.francesco.air-tech.agency" id="75729593-2f36-42c2-bf8c-fb733e5bf68b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="francesco" />
+      <sshConfig host="dev.rusklimat.air-tech.agency" id="73cf1aef-3197-41be-891c-9772f08883aa" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="rusklimat" />
+      <sshConfig authType="OPEN_SSH" host="RK-test" id="d6ac1710-57e2-492d-a6b4-9a2bd2819863" port="22" customName="RK" nameFormat="CUSTOM" username="galak_v">
+        <option name="customName" value="RK" />
+      </sshConfig>
+      <sshConfig host="back.air.air-tech.agency" id="2de54f2f-9dac-41b0-bef3-73f7a97ca1c4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="air" />
+      <sshConfig host="84.201.188.157" id="0edce11d-d40d-4742-9907-dccf7c087480" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="prod.frd" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="prod.frd" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="community.exolve.mish.design" id="f9d883f3-a748-49bb-a1d9-10624401a5f4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="mtt" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="mtt.mtt.air-tech.agency" id="29a023c4-7835-4b76-bc27-ec5ee007824b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.mtt" nameFormat="CUSTOM" username="mtt">
+        <option name="customName" value="dev.mtt" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="ssh.zeytzpro.nichost.ru" id="ce4287b1-421b-46f0-96a6-1ce4af210758" port="22" nameFormat="DESCRIPTIVE" username="zeytzpro" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="185.114.247.198" id="e0899527-3457-4543-80eb-2d27369a0825" port="22" customName="mtt.prod" nameFormat="CUSTOM" username="cr70143">
+        <option name="customName" value="mtt.prod" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.standup.air-tech.agency" id="25fe5f51-024f-439b-81e5-4e10acec3e9c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.concert" nameFormat="CUSTOM" username="standup">
+        <option name="customName" value="dev.concert" />
+      </sshConfig>
+      <sshConfig host="5.75.154.165" id="ab1160fd-c567-4937-9134-07f563e06093" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="concert.prod" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="concert.prod" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="dev.yams.air-tech.agency" id="b9213cb7-257f-4a31-a773-2ce3244b0566" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="yams.dev" nameFormat="CUSTOM" username="yams">
+        <option name="customName" value="yams.dev" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.koleso.air-tech.agency" id="90df6978-affe-4d4d-8cc2-110818972e05" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="koleso" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="cm-outlet.ru" id="976e87a1-ebec-4907-bc88-ac8c71ee813c" port="22" customName="cm-outlet" nameFormat="CUSTOM" username="aminen0q_outlet">
+        <option name="customName" value="cm-outlet" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:120}" host="dev.trips.air-tech.agency" id="a34cad18-bd8c-48a0-b6a2-5d3350ff143d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.trips" nameFormat="CUSTOM" username="trips">
+        <option name="customName" value="dev.trips" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="tripshop.ru" id="bfecd11e-4d8d-4b18-b93a-270de3bc5925" port="22" customName="trips.prod" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="trips.prod" />
+      </sshConfig>
+      <sshConfig host="dev2.polymed.air-tech.agency" id="63783a0f-fea4-4dfb-a110-4298997efb20" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.polymed" nameFormat="CUSTOM" username="polymed">
+        <option name="customName" value="dev.polymed" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="new2.francesco.ru" id="3a08d960-dd5a-4600-9b01-473cbb05dfb8" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="prod.francesco" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="prod.francesco" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="185.200.240.244" id="1ead5122-a816-4ab2-a57e-f53a7a84e4b1" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="zetta.dev" nameFormat="CUSTOM" username="zetta">
+        <option name="customName" value="zetta.dev" />
+      </sshConfig>
+      <sshConfig host="air-tech.agency" id="b5dac126-b412-4e5c-8dcd-ad65b768fa76" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="denuo" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="89.108.109.144" id="765651a2-0434-49ef-a4c3-ca7e668cd192" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="bitrix" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="dev.francesco.air-tech.agency" id="85c47f6b-ff47-46e8-8e56-6eaf5147d102" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="dev.francesco" nameFormat="CUSTOM" username="francesco">
+        <option name="customName" value="dev.francesco" />
+      </sshConfig>
+      <sshConfig host="mgts.air-tech.agency" id="54450b1b-7313-448c-9bf8-980910ee04b2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="mgts.dev" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="mgts.dev" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="access.dalee.ru" id="051830b8-bfc6-4d39-859d-c288a8f6a7b6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22043" customName="access.dalee.ru" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.ru" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="5a3c020c-cf41-4807-a563-f4e794a6368b" keyPath="$USER_HOME$/.ssh/id_rsa" port="10051" customName="access.dalee.devz51" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.devz51" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="secureitcup.smysl.pro" id="7c177802-0ac3-44b9-b2b0-9c421e57878a" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="secureitcup" />
+      <sshConfig host="okglaza.catzwolf.ru" id="6c77b84c-ac4a-46f9-a1e6-526fadf45959" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="okglaza" />
+      <sshConfig authType="PASSWORD" host="bausch-visleya-tmp.catzwolf.ru" id="5c309dad-04b0-47a7-8e3d-f9aaa0e5181b" port="22" nameFormat="DESCRIPTIVE" username="bausch-visleya-tmp" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="ultralinzi-by.catzwolf.ru" id="6a36cafa-d63f-4e24-832a-91c66759d63f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ultralinzi-by" />
+      <sshConfig host="flocktory.catzwolf.ru" id="b03b57d1-4e1a-49da-9c77-af22c09345b3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="debian" />
+      <sshConfig host="protey-back.catzwolf.ru" id="7b851ec4-d932-4041-946a-a9ead8c588a3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="protey" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="b24-test.artinvestment.ru" id="e632a1b9-f69c-4bc9-8075-5189a5e524b8" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="388b6eb4-158b-449e-9bc2-70150154ef8e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22039" customName="access.dalee.dev19" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.dev19" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="90.156.205.217" id="54f5c693-d67d-4ce7-815f-1958b8ad158b" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="ultraoneday" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="ultraoneday" />
+      </sshConfig>
+      <sshConfig host="ocuviteforte.catzwolf.ru" id="bb34ede9-91c5-431e-b892-24707f978cae" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ocuviteforte" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="access.dalee.ru" id="f8dea2aa-97de-45d7-b836-e67b5366823c" keyPath="$USER_HOME$/.ssh/id_rsa" port="22023" customName="access.dalee.ru03" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.ru03" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="u537781.ssh.masterhost.ru" id="4b8895c3-2945-44cf-a76f-7f4b8cb4413b" port="22" customName="okuforte.new" nameFormat="CUSTOM" username="u537781">
+        <option name="customName" value="okuforte.new" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="u481031.ssh.masterhost.ru" id="19b4dd88-298f-479c-880d-e6487f3ca4f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelac" nameFormat="CUSTOM" username="u481031">
+        <option name="customName" value="artelac" />
+      </sshConfig>
+      <sshConfig host="bausch-panthenol.catzwolf.ru" id="645c664b-e268-47dc-9e48-95dbb8702414" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="panthenol" />
+      <sshConfig authType="PASSWORD" host="techgtdr.beget.tech" id="ef70e037-7ed7-435e-b020-c6ba38c97b2f" port="22" nameFormat="DESCRIPTIVE" username="techgtdr" />
+      <sshConfig host="bausch-korneregel.catzwolf.ru" id="b74ba330-da5c-406a-b1f1-176f4b42329a" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="korneregel" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="agttech.beget.tech" id="9c2cabb0-a230-42f1-9009-a5d8291f01cc" port="22" nameFormat="DESCRIPTIVE" username="agttech" />
+      <sshConfig authType="PASSWORD" host="188.225.82.87" id="e5534adf-02de-4d39-92c1-0dd9d4c86801" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="77.222.38.161" id="f3628f4f-0534-406d-ac5f-40c34e10de1f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="lms" nameFormat="CUSTOM" username="bitrix">
+        <option name="customName" value="lms" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="access.dalee.ru" id="7512baee-2aab-467d-9894-76cb1d3db9de" keyPath="$USER_HOME$/.ssh/id_rsa" port="22034" customName="access.dalee.dev14" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="access.dalee.dev14" />
+      </sshConfig>
+      <sshConfig host="u538244.ssh.masterhost.ru" id="cca0032c-6bf1-4a4c-9413-3de28f862fc9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="u538244" />
+    </configs>
+  </component>
+</application>

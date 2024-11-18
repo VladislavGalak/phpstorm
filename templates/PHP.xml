@@ -1,0 +1,72 @@
+<templateSet group="PHP">
+  <template name="pre" value="echo &quot;&lt;pre&gt;&quot;;&#10;    print_r($END$);&#10;echo &quot;&lt;/pre&gt;&quot;;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ref" value="$newRef    = new ReferenceField('REF_NAME', REFTable::class,&#10;            Join::on('this.ID', 'ref.IBLOCK_ELEMENT_ID')&#10;                -&gt;where('ref.IBLOCK_PROPERTY_ID', 4)&#10;        );" shortcut="TAB" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="expr" value="$exprVal = new ExpressionField('EXPR_VAL', &quot;GROUP_CONCAT(DISTINCT %s SEPARATOR '/')&quot;, 'SOME_FIELD.VALUE');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="da" value="da($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wtf" value="\Bitrix\Main\Diag\Debug::writeToFile(['INFO'=&gt;$END$],'','app_debug.txt');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="track" value="$connection = \Bitrix\Main\Application::getConnection();&#10;/** Bitrix\Main\Diag\SqlTracker $tracker */&#10;$tracker = $connection-&gt;startTracker();&#10;$END$&#10;$connection-&gt;stopTracker();&#10;&#10;foreach ($tracker-&gt;getQueries() as $query) {&#10;    da($query-&gt;getSql());&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="aut" value="require($_SERVER[&quot;DOCUMENT_ROOT&quot;] . &quot;/bitrix/header.php&quot;); &#10;global $USER; &#10;$USER-&gt;Authorize(1); &#10;@unlink(__FILE__); &#10;LocalRedirect(&quot;/bitrix/admin/&quot;); &#10;require($_SERVER[&quot;DOCUMENT_ROOT&quot;].&quot;/bitrix/footer.php&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="user" value="\Bitrix\Main\Engine\CurrentUser::get()" shortcut="TAB" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="request" value="$request = \Bitrix\Main\Context::getCurrent()-&gt;getRequest();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bxc" value="/** @var array $arParams */&#10;/** @var array $arResult */&#10;/** @global CMain $APPLICATION */&#10;/** @global CUser $USER */&#10;/** @global CDatabase $DB */&#10;/** @var CBitrixComponentTemplate $this */&#10;/** @var string $templateName */&#10;/** @var string $templateFile */&#10;/** @var string $templateFolder */&#10;/** @var string $componentPath */&#10;/** @var CBitrixComponent $component */" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prolog" value="include($_SERVER[&quot;DOCUMENT_ROOT&quot;].&quot;/bitrix/modules/main/include/prolog_before.php&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="element" value="\Bitrix\Iblock\Elements\ElementCatalogTable::query()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vue" value="htmlspecialchars(json_encode($END$, JSON_UNESCAPED_UNICODE));" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if (!empty($END$))" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
