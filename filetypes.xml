@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="csv" type="CSV file" />
       <removed_mapping ext="csv" type="CSV/TSV" />
+      <mapping ext="raw" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
