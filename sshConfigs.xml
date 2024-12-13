@@ -146,6 +146,14 @@
         <option name="customName" value="access.dalee.dev14" />
       </sshConfig>
       <sshConfig host="u538244.ssh.masterhost.ru" id="cca0032c-6bf1-4a4c-9413-3de28f862fc9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="u538244" />
+      <sshConfig host="visleakz.catzwolf.ru" id="a6c5ecb9-db60-4ae4-b0d6-ffadac4c3501" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="visleakz" nameFormat="CUSTOM" username="visleakz">
+        <option name="customName" value="visleakz" />
+      </sshConfig>
+      <sshConfig host="okglazakz.catzwolf.ru" id="861f23ac-b6d2-462c-8f61-90b170138639" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="okglazakz" nameFormat="CUSTOM" username="okglazakz">
+        <option name="customName" value="okglazakz" />
+      </sshConfig>
+      <sshConfig host="ocuvitefortekz.catzwolf.ru" id="8c574489-3077-41aa-bdc4-6bf319702ae2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ocuvitefortekz" />
+      <sshConfig host="glazapluskz.catzwolf.ru" id="ba0f7f63-34d5-4967-88ec-f5adf5f8dcba" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="glazapluskz" />
     </configs>
   </component>
 </application>

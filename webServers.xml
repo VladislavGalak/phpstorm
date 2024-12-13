@@ -337,6 +337,34 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="50405641-1fe3-412b-85e1-ed346a8502c6" name="vislea.kz">
+        <fileTransfer rootFolder="/home/visleakz/visleakz.catzwolf.ru" accessType="SFTP" host="visleakz.catzwolf.ru" port="22" sshConfigId="a6c5ecb9-db60-4ae4-b0d6-ffadac4c3501" sshConfig="visleakz" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="dea8bf4e-0cd3-430f-adf4-138f4c715c18" name="okglazakz">
+        <fileTransfer rootFolder="/home/okglazakz/okglazakz.catzwolf.ru" accessType="SFTP" host="okglazakz.catzwolf.ru" port="22" sshConfigId="861f23ac-b6d2-462c-8f61-90b170138639" sshConfig="okglazakz" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="163db9d8-d373-4f5d-8013-2561005fdb89" name="ocuvitefortekz">
+        <fileTransfer rootFolder="/home/ocuvitefortekz/ocuvitefortekz.catzwolf.ru" accessType="SFTP" host="ocuvitefortekz.catzwolf.ru" port="22" sshConfigId="8c574489-3077-41aa-bdc4-6bf319702ae2" sshConfig="ocuvitefortekz@ocuvitefortekz.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0d559faf-374e-4814-a601-a4d558cabaaf" name="glazapluskz">
+        <fileTransfer rootFolder="/home/glazapluskz/glazapluskz.catzwolf.ru" accessType="SFTP" host="glazapluskz.catzwolf.ru" port="22" sshConfigId="ba0f7f63-34d5-4967-88ec-f5adf5f8dcba" sshConfig="glazapluskz@glazapluskz.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
