@@ -154,6 +154,9 @@
       </sshConfig>
       <sshConfig host="ocuvitefortekz.catzwolf.ru" id="8c574489-3077-41aa-bdc4-6bf319702ae2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ocuvitefortekz" />
       <sshConfig host="glazapluskz.catzwolf.ru" id="ba0f7f63-34d5-4967-88ec-f5adf5f8dcba" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="glazapluskz" />
+      <sshConfig host="lutein.catzwolf.ru" id="c529e101-f029-4796-8db4-0ab04e6a18ae" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="luteinkz" nameFormat="CUSTOM" username="lutein">
+        <option name="customName" value="luteinkz" />
+      </sshConfig>
     </configs>
   </component>
 </application>

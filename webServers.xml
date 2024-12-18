@@ -365,6 +365,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="f93d1779-6ae6-4d75-be82-f64974ed51d5" name="luteinkz">
+        <fileTransfer rootFolder="/home/lutein/luteinokglazakz" accessType="SFTP" host="lutein.catzwolf.ru" port="22" sshConfigId="c529e101-f029-4796-8db4-0ab04e6a18ae" sshConfig="luteinkz" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
