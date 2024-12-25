@@ -157,7 +157,7 @@
       <sshConfig host="lutein.catzwolf.ru" id="c529e101-f029-4796-8db4-0ab04e6a18ae" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="luteinkz" nameFormat="CUSTOM" username="lutein">
         <option name="customName" value="luteinkz" />
       </sshConfig>
-      <sshConfig host="flocktory-backend.catzwolf.ru" id="c400d16d-9765-43c2-b826-c91d7beb72f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="new.floctory" nameFormat="CUSTOM" username="flocktory">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="flocktory-backend.catzwolf.ru" id="c400d16d-9765-43c2-b826-c91d7beb72f2" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="new.floctory" nameFormat="CUSTOM" username="flocktory">
         <option name="customName" value="new.floctory" />
       </sshConfig>
     </configs>
