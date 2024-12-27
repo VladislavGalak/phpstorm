@@ -354,7 +354,7 @@
       <webServer id="163db9d8-d373-4f5d-8013-2561005fdb89" name="ocuvitefortekz">
         <fileTransfer rootFolder="/home/ocuvitefortekz/ocuvitefortekz.catzwolf.ru" accessType="SFTP" host="ocuvitefortekz.catzwolf.ru" port="22" sshConfigId="8c574489-3077-41aa-bdc4-6bf319702ae2" sshConfig="ocuvitefortekz@ocuvitefortekz.catzwolf.ru:22 key" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
