@@ -387,7 +387,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="195b4229-8632-42a0-ae98-5790c520de00" name="onevision">
-        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="109.70.24.166" port="22" sshConfigId="fbf041a8-9fc9-4837-9e32-a54479b989d0" sshConfig="bitrix@109.70.24.166:22 password">
+        <fileTransfer rootFolder="/home/bitrix/" accessType="SFTP" host="109.70.24.166" port="22" sshConfigId="fbf041a8-9fc9-4837-9e32-a54479b989d0" sshConfig="bitrix@109.70.24.166:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
