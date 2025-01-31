@@ -162,6 +162,9 @@
       </sshConfig>
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="kaspersky-hub.catzwolf.ru" id="a3cfd066-d63b-42f8-9072-d9defa7f0b3d" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="kaspersky-hub" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="109.70.24.166" id="fbf041a8-9fc9-4837-9e32-a54479b989d0" port="22" nameFormat="DESCRIPTIVE" username="bitrix" />
+      <sshConfig host="185.86.147.129" id="1b615acd-1c2f-4e96-9f7b-ce1e7a72f005" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="np-multireg" nameFormat="CUSTOM" username="vgalak">
+        <option name="customName" value="np-multireg" />
+      </sshConfig>
     </configs>
   </component>
 </application>
