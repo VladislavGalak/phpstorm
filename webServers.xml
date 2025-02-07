@@ -393,6 +393,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="c128be90-bd8e-4c8b-b267-f6d35d20ff06" name="visleaby">
+        <fileTransfer rootFolder="/home/visleaby/visleaby.catzwolf.ru/app/www" accessType="SFTP" host="visleaby.catzwolf.ru" port="22" sshConfigId="ae12088e-1629-42eb-b6f3-bc9f2b131614" sshConfig="visleaby@visleaby.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

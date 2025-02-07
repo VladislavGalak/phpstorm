@@ -165,6 +165,7 @@
       <sshConfig host="185.86.147.129" id="1b615acd-1c2f-4e96-9f7b-ce1e7a72f005" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="np-multireg" nameFormat="CUSTOM" username="vgalak">
         <option name="customName" value="np-multireg" />
       </sshConfig>
+      <sshConfig host="visleaby.catzwolf.ru" id="ae12088e-1629-42eb-b6f3-bc9f2b131614" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="visleaby" />
     </configs>
   </component>
 </application>
