@@ -166,7 +166,7 @@
         <option name="customName" value="np-multireg" />
       </sshConfig>
       <sshConfig host="visleaby.catzwolf.ru" id="ae12088e-1629-42eb-b6f3-bc9f2b131614" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="visleaby" />
-      <sshConfig host="artelac.catzwolf.ru" id="b90a2fec-11f7-4e80-9dd4-367c17a5bfad" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelacby" nameFormat="CUSTOM" username="artelac">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="artelac.catzwolf.ru" id="b90a2fec-11f7-4e80-9dd4-367c17a5bfad" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelacby" nameFormat="CUSTOM" username="artelac">
         <option name="customName" value="artelacby" />
       </sshConfig>
     </configs>
