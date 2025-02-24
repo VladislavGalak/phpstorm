@@ -5,6 +5,7 @@
       <removed_mapping ext="csv" type="CSV file" />
       <mapping ext="csv" type="CSV/TSV" />
       <mapping pattern=".manifest" type="PLAIN_TEXT" />
+      <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
