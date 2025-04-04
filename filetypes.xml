@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="aut,php" type="AUTO_DETECTED" />
-      <mapping ext="csv" type="CSV file" />
-      <removed_mapping ext="csv" type="CSV/TSV" />
+      <removed_mapping ext="csv" type="CSV file" />
+      <mapping ext="csv" type="CSV/TSV" />
       <mapping pattern=".manifest" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
