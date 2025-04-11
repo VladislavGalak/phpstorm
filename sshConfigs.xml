@@ -169,6 +169,9 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="artelac.catzwolf.ru" id="b90a2fec-11f7-4e80-9dd4-367c17a5bfad" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="artelacby" nameFormat="CUSTOM" username="artelac">
         <option name="customName" value="artelacby" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="62.113.110.73" id="de08312d-1cf1-4ef3-a4aa-413afff943ca" port="22" customName="profcred" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="profcred" />
+      </sshConfig>
     </configs>
   </component>
 </application>

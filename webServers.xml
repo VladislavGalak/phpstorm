@@ -400,6 +400,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="ab4ea4f6-632d-49f3-a399-e0430ab310ba" name="profcred">
+        <fileTransfer rootFolder="/home/profi-credit.ru/htdocs" accessType="SFTP" host="62.113.110.73" port="22" sshConfigId="de08312d-1cf1-4ef3-a4aa-413afff943ca" sshConfig="profcred">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
