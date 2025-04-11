@@ -1,11 +1,15 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="HEAD" type="AUTO_DETECTED" />
       <mapping pattern="aut,php" type="AUTO_DETECTED" />
+      <mapping pattern="description" type="AUTO_DETECTED" />
+      <mapping pattern="config" type="AUTO_DETECTED" />
+      <mapping pattern="index" type="AUTO_DETECTED" />
       <mapping ext="csv" type="CSV file" />
       <removed_mapping ext="csv" type="CSV/TSV" />
-      <mapping pattern=".manifest" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".manifest" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
     </extensionMap>
