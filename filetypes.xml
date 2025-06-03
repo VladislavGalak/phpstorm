@@ -10,6 +10,7 @@
       <mapping ext="csv" type="CSV/TSV" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".manifest" type="PLAIN_TEXT" />
+      <mapping pattern=".htaccess.restore" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
     </extensionMap>
