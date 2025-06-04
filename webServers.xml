@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="9b0d990c-ba0a-462a-9750-4a9cab721864" name="esenin.prod" url="http://nash-esenin.ru">
+        <fileTransfer host="nash-esenin.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="1f7d3007-a164-4588-859c-32d9c55b099c" name="esenin">
         <fileTransfer rootFolder="/home/t/techgtdr/esenin.techgtdr.beget.tech/public_html" accessType="SFTP" host="techgtdr.beget.tech" port="22" sshConfigId="ef70e037-7ed7-435e-b020-c6ba38c97b2f" sshConfig="techgtdr@techgtdr.beget.tech:22 password">
           <advancedOptions>
