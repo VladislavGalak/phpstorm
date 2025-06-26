@@ -421,6 +421,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="cc9a4ff9-6ab7-4acd-a728-5897d594ff91" name="visleaby-prod">
+        <fileTransfer rootFolder="/hosting1/artelacby/vislea.by" accessType="SFTP" host="artelac.by" port="20022" sshConfigId="ca9f6ce2-2aa9-43ef-836c-dd6cc7bd5c09" sshConfig="artelacby-prod" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
