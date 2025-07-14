@@ -435,6 +435,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="536d872b-8a01-4ad2-8087-95823717ebb1" name="ultralinzi.by-prod">
+        <fileTransfer rootFolder="/hosting1/artelacby/ultralinzi.by/public_html" accessType="SFTP" host="artelac.by" port="20022" sshConfigId="ca9f6ce2-2aa9-43ef-836c-dd6cc7bd5c09" sshConfig="artelacby-prod" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
