@@ -442,6 +442,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="36253e13-b380-4531-bf79-277d981b36a2" name="artelacby-prod">
+        <fileTransfer rootFolder="/hosting1/artelacby/artelac.by.git/artelacby" accessType="SFTP" host="artelac.by" port="20022" sshConfigId="ca9f6ce2-2aa9-43ef-836c-dd6cc7bd5c09" sshConfig="artelacby-prod" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
