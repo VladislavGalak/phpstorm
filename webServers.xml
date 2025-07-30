@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="6fb7b0f4-359e-48c0-8a0b-229931f2e5d8" name="bricstv" url="http://spichk0l.beget.tech">
+        <fileTransfer host="spichk0l.beget.tech" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="9b0d990c-ba0a-462a-9750-4a9cab721864" name="esenin.prod" url="http://nash-esenin.ru">
         <fileTransfer host="nash-esenin.ru" port="21">
           <advancedOptions>
