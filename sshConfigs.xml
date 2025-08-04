@@ -181,7 +181,7 @@
       <sshConfig host="u526096.ssh.masterhost.ru" id="64b61064-357a-415d-a214-2ec1151c24e3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="oktilia" nameFormat="CUSTOM" username="u526096">
         <option name="customName" value="oktilia" />
       </sshConfig>
-      <sshConfig host="argosulfan.catzwolf.ru" id="de94260c-bc62-42a6-ba42-152f9f582fe7" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="argosulfan" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="argosulfan.catzwolf.ru" id="de94260c-bc62-42a6-ba42-152f9f582fe7" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="argosulfan" />
     </configs>
   </component>
 </application>
