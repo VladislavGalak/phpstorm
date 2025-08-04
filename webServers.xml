@@ -464,7 +464,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="7a0d7d75-82d1-44b3-88ec-1d01fdee04f3" name="argosulfan">
-        <fileTransfer rootFolder="/home/argosulfan/argosulfan.catzwolf.ru" accessType="SFTP" host="argosulfan.catzwolf.ru" port="22" sshConfigId="de94260c-bc62-42a6-ba42-152f9f582fe7" sshConfig="argosulfan@argosulfan.catzwolf.ru:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/argosulfan/argosulfan.catzwolf.ru/app/www" accessType="SFTP" host="argosulfan.catzwolf.ru" port="22" sshConfigId="de94260c-bc62-42a6-ba42-152f9f582fe7" sshConfig="argosulfan@argosulfan.catzwolf.ru:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
