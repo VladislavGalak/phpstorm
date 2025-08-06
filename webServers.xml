@@ -438,7 +438,7 @@
       <webServer id="35ddaefc-14ab-46ab-b29c-220e73a76a8e" name="antigrippin-new">
         <fileTransfer rootFolder="/home/antigrippin/antigrippin-new.catzwolf.ru/antigrippin-back-new.catzwolf.ru" accessType="SFTP" host="antigrippin-new.catzwolf.ru" port="22" sshConfigId="bbfb8fcc-1524-4e5e-849b-e393a32d9177" sshConfig="antigrippin-new" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

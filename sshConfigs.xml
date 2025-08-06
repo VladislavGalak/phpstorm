@@ -175,7 +175,7 @@
       <sshConfig host="artelac.by" id="ca9f6ce2-2aa9-43ef-836c-dd6cc7bd5c09" keyPath="$USER_HOME$/.ssh/id_rsa" port="20022" customName="artelacby-prod" nameFormat="CUSTOM" username="artelacby">
         <option name="customName" value="artelacby-prod" />
       </sshConfig>
-      <sshConfig host="antigrippin-new.catzwolf.ru" id="bbfb8fcc-1524-4e5e-849b-e393a32d9177" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="antigrippin-new" nameFormat="CUSTOM" username="antigrippin">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="antigrippin-new.catzwolf.ru" id="bbfb8fcc-1524-4e5e-849b-e393a32d9177" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="antigrippin-new" nameFormat="CUSTOM" username="antigrippin">
         <option name="customName" value="antigrippin-new" />
       </sshConfig>
       <sshConfig host="u526096.ssh.masterhost.ru" id="64b61064-357a-415d-a214-2ec1151c24e3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="oktilia" nameFormat="CUSTOM" username="u526096">
