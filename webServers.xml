@@ -470,6 +470,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="db29abc2-1a34-4e44-a0e7-687426c29f5b" name="kz.landings">
+        <fileTransfer rootFolder="/home/bitrix/ext_www" accessType="SFTP" host="185.146.3.106" port="22" sshConfigId="a9578569-f9e0-4225-ac6d-b9d72fc9701f" sshConfig="bitrix@185.146.3.106:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
