@@ -477,6 +477,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="02d0b23b-b7be-4400-8b93-bee6c5099c57" name="rexona">
+        <fileTransfer rootFolder="/home/rexona/rexona-back.catzwolf.ru/source-code/backend" accessType="SFTP" host="rexona.catzwolf.ru" port="22" sshConfigId="4f5e0568-e92b-4be5-9f17-7e5ce9988cd6" sshConfig="rexona@rexona.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
