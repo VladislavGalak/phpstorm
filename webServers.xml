@@ -484,6 +484,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="e9d1ff99-c9a5-4b15-a8a0-723acaa3fa62" name="octilia">
+        <fileTransfer rootFolder="/home/octilia/octilia.catzwolf.ru/app/www" accessType="SFTP" host="octilia.catzwolf.ru" port="22" sshConfigId="b4f5a0b7-efb8-43ce-8268-2ed34cc02c48" sshConfig="octilia@octilia.catzwolf.ru:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

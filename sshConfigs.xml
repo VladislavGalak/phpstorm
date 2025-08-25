@@ -184,6 +184,7 @@
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:30}" host="argosulfan.catzwolf.ru" id="de94260c-bc62-42a6-ba42-152f9f582fe7" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="argosulfan" />
       <sshConfig host="185.146.3.106" id="a9578569-f9e0-4225-ac6d-b9d72fc9701f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="bitrix" />
       <sshConfig host="rexona.catzwolf.ru" id="4f5e0568-e92b-4be5-9f17-7e5ce9988cd6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="rexona" />
+      <sshConfig host="octilia.catzwolf.ru" id="b4f5a0b7-efb8-43ce-8268-2ed34cc02c48" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="octilia" />
     </configs>
   </component>
 </application>
