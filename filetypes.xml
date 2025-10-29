@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="HEAD" type="AUTO_DETECTED" />
+      <mapping pattern="Makefile" type="AUTO_DETECTED" />
       <mapping pattern="aut,php" type="AUTO_DETECTED" />
       <mapping pattern="description" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
