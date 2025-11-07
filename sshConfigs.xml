@@ -185,6 +185,7 @@
       <sshConfig host="185.146.3.106" id="a9578569-f9e0-4225-ac6d-b9d72fc9701f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="bitrix" />
       <sshConfig host="rexona.catzwolf.ru" id="4f5e0568-e92b-4be5-9f17-7e5ce9988cd6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="rexona" />
       <sshConfig host="octilia.catzwolf.ru" id="b4f5a0b7-efb8-43ce-8268-2ed34cc02c48" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="octilia" />
+      <sshConfig host="cart-noir-backend.catzwolf.ru" id="ac6faad3-9cb7-4e9a-b50c-a4eb4a5e96c9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="cartnoir" />
     </configs>
   </component>
 </application>
