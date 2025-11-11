@@ -492,7 +492,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="274ddd49-a74f-4551-a4b1-08a536b8af2e" name="cart-noir-backend.catzwolf.ru">
-        <fileTransfer rootFolder="/home/cartnoir/cart-noir-backend.catzwolf.ru/app/www" accessType="SFTP" host="cart-noir-backend.catzwolf.ru" port="22" sshConfigId="ac6faad3-9cb7-4e9a-b50c-a4eb4a5e96c9" sshConfig="cartnoir@cart-noir-backend.catzwolf.ru:22 key" keyPair="true">
+        <fileTransfer rootFolder="/home/cartnoir/cart-noir-backend.catzwolf.ru/" accessType="SFTP" host="cart-noir-backend.catzwolf.ru" port="22" sshConfigId="ac6faad3-9cb7-4e9a-b50c-a4eb4a5e96c9" sshConfig="cartnoir@cart-noir-backend.catzwolf.ru:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
