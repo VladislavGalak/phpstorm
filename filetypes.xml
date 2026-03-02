@@ -7,13 +7,14 @@
       <mapping pattern="description" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
       <mapping pattern="index" type="AUTO_DETECTED" />
+      <mapping ext="csv" type="CSV file" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".manifest" type="PLAIN_TEXT" />
       <mapping pattern=".settings.php.bak" type="PLAIN_TEXT" />
       <mapping pattern=".htaccess.restore" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
-      <removed_mapping ext="csv" type="CSV file" />
     </extensionMap>
   </component>
 </application>
