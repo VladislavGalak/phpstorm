@@ -15,6 +15,7 @@
       <mapping pattern=".htaccess.restore" type="PLAIN_TEXT" />
       <mapping ext="snp" type="PLAIN_TEXT" />
       <mapping ext="raw" type="PLAIN_TEXT" />
+      <mapping ext="local" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
