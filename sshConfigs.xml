@@ -186,6 +186,7 @@
       <sshConfig host="rexona.catzwolf.ru" id="4f5e0568-e92b-4be5-9f17-7e5ce9988cd6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="rexona" />
       <sshConfig host="octilia.catzwolf.ru" id="b4f5a0b7-efb8-43ce-8268-2ed34cc02c48" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="octilia" />
       <sshConfig host="cart-noir-backend.catzwolf.ru" id="ac6faad3-9cb7-4e9a-b50c-a4eb4a5e96c9" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="cartnoir" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="rubytech.dev.smysl.pro" id="55a7bbfc-2442-4eff-8c0f-eda0897032e3" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="skala" />
     </configs>
   </component>
 </application>
