@@ -505,6 +505,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="d4399b99-ecc4-4365-91bd-3bf4f3adae7f" name="discovery">
+        <fileTransfer rootFolder="/home/vgalak/web/np/discover-russia" accessType="SFTP" host="access.dalee.ru" port="10051" sshConfigId="5a3c020c-cf41-4807-a563-f4e794a6368b" sshConfig="access.dalee.devz51" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
