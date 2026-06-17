@@ -512,6 +512,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="5f22db03-bd8e-42cb-9fd3-c410f0f8bd7e" name="scala">
+        <fileTransfer rootFolder="/home/skala/rubytech.dev.smysl.pro/app/www" accessType="SFTP" host="rubytech.dev.smysl.pro" port="22" sshConfigId="e5fb76d8-2bf1-4faa-b82e-c0b3fd28d126" sshConfig="skala@rubytech.dev.smysl.pro:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
